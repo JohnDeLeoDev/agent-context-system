@@ -1,0 +1,5 @@
+uuid = "efaf73a9-bfb1-5af6-8c8e-f229e5a82c46"
+type = "script"
+name = "git_write_token"
+description = "The git-write consent token read one way by every hook that honors it: guard-git-write spends it, block-deploy only checks it. Stdlib only."
+language = "python"

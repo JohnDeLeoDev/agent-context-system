@@ -1,0 +1,5 @@
+uuid = "aeef3985-944d-5dc0-9e7d-a58c73f599d9"
+type = "script"
+name = "deps-sync"
+description = "Applies a declared fleet-dependency fix in user space, dry-run by default. Run after deps-check.py reports a gap."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "58ce9835-6649-5542-9e21-069913f0738c"
+type = "script"
+name = "test-invariant-line-numbers"
+description = "Tests that invariant-check reports the line a human opens, after docstrings and comments, and counts an fsync guard separated by comments."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "20567012-ad93-5c1e-b4c9-9bb7019fdc50"
+type = "script"
+name = "test-context-inventory-merge"
+description = "Tests context-inventory-merge.py: digest headers with spaces in the path, and result files older than the batch manifest."
+language = "python"

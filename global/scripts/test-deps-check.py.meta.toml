@@ -1,0 +1,5 @@
+uuid = "58e2e4f9-6657-5bc2-b1bc-f6241b77762c"
+type = "script"
+name = "test-deps-check"
+description = "Tests deps-check.py: statuses, floors, roles by machine and OS, manifest validation, redaction, timeouts, health record, command allowlist."
+language = "python"

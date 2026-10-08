@@ -1,0 +1,5 @@
+uuid = "6712ae50-34ad-579d-b0a9-ab9a028b0857"
+type = "script"
+name = "test-lspd-mcp"
+description = "Tests lspd.py --mcp: replay against mockls scenarios, launch checks, write lock, a lost daemon, non-blocking handshake, file sync."
+language = "python"

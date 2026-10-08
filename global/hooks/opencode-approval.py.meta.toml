@@ -1,0 +1,7 @@
+uuid = "4fb9a388-e0e6-511d-a742-a70740e3096c"
+type = "hook"
+name = "opencode-approval"
+description = "opencode question tool: refuse an inexact approval question; grant only user's Approve on a call the pre-tool check passed."
+event_type = "PreToolUse"
+language = "python"
+timeout_seconds = 90

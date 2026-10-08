@@ -1,0 +1,8 @@
+uuid = "26f8b135-d6d3-5ac2-942e-8f56d01a8391"
+type = "hook"
+name = "post-edit-verify"
+description = "PostToolUse(Edit|Write): run the project's linter (eslint, ruff, swiftlint) on the edited file and report failures. Never blocks."
+event_type = "PostToolUse"
+matcher = "Edit|Write"
+language = "python"
+timeout_seconds = 30

@@ -1,0 +1,5 @@
+uuid = "c4516866-9099-5a51-b2cf-6769828d0103"
+type = "script"
+name = "observation-coverage"
+description = "Report recurring or severe audit observations that no hook, script, invariant or server test cites. Read-only; --health writes a verdict."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "b434d953-f66a-59bb-8774-32ada187ec64"
+type = "script"
+name = "merge-state-newer"
+description = "Git merge driver for global/state/ files: keeps the newer last_run when that is the only difference and refuses anything else."
+language = "python"

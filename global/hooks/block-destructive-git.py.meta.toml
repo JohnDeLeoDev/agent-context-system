@@ -1,0 +1,8 @@
+uuid = "532e5213-fdcc-5b55-b5df-df576ab7187c"
+type = "hook"
+name = "block-destructive-git"
+description = "PreToolUse(Bash): refuse git restore, reset, clean, revert and checkout or switch forms that touch file content; branch moves pass."
+event_type = "PreToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 10

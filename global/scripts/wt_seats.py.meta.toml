@@ -1,0 +1,5 @@
+uuid = "b5542fcb-5289-53b9-9435-493b434c47a4"
+type = "script"
+name = "wt_seats"
+description = "Shared by every project's wt-new.py: put a task's branch in a persistent seat (seat-1, seat-2) so its build starts from the last one."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "aa0e274e-cb15-59d4-8d83-a830a749ae45"
+type = "script"
+name = "test-invariant-wt-finish-delegation"
+description = "Tests that a project wt-finish-core.py passes the landing invariants only by a real run_project call into global wt_finish_core.py."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "12f244a1-d692-50f0-bb78-952e39ffe3fc"
+type = "script"
+name = "test-worktree-create"
+description = "Integration tests for Claude WorktreeCreate placement under .agents/worktrees"
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "480dba2c-4f23-52ee-803c-9b0a4448f6b2"
+type = "script"
+name = "test-store-reader-graph"
+description = "Tests for store-reader-graph: fixture store and home, verdicts, roots, output shape."
+language = "python"

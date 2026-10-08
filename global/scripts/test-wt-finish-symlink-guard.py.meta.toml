@@ -1,0 +1,5 @@
+uuid = "2fb8eef0-5abf-557c-8657-9905f97d122f"
+type = "script"
+name = "test-wt-finish-symlink-guard"
+description = "Tests wt_finish_core.copy_tree and example-project's landing_gate: a self-looping symlink is refused by name before any copy."
+language = "python"

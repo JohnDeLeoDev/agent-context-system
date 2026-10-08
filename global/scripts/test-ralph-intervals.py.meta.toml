@@ -1,0 +1,5 @@
+uuid = "af705d67-8376-5926-8d50-05fa1f222df5"
+type = "script"
+name = "test-ralph-intervals"
+description = "Regression for re-patching Ralph PATCH B and parsing zero-padded intervals as decimal."
+language = "python"

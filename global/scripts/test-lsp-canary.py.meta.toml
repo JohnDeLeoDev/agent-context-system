@@ -1,0 +1,5 @@
+uuid = "e6ed66d2-ed81-5df9-9885-5d179877dcde"
+type = "script"
+name = "test-lsp-canary"
+description = "Tests lsp-canary.py argument handling: --help and -h exit 0 without probing; an unknown flag or second argument exits 2 with no verdict."
+language = "python"

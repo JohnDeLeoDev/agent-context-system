@@ -1,0 +1,5 @@
+uuid = "d62cbc86-5d45-5551-b22a-068c93f3b433"
+type = "script"
+name = "eval-run"
+description = "Eval harness: builds a git fixture per case, drives the agent, scores with checks and an optional judge. Spends tokens; needs --go."
+language = "python"

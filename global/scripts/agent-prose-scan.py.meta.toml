@@ -1,0 +1,5 @@
+uuid = "eb9b873a-b944-550e-b2c8-2d1ff4dbbb82"
+type = "script"
+name = "agent-prose-scan"
+description = "Counts blocked plain-language hits in recent Claude Code transcripts by main session, subagent and eval. Read-only; run to measure padding."
+language = "python"

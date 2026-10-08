@@ -1,0 +1,5 @@
+uuid = "e28b98ec-e374-5f9f-b8e1-f8fa14148808"
+type = "script"
+name = "test-opencode-peer-wake"
+description = "Runs the generated opencode plugin's peer-message watcher under node with a stand-in context (policy)."
+language = "python"

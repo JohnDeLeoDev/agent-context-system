@@ -1,0 +1,8 @@
+uuid = "99998b6c-74a9-5fa8-a722-9e2fcae194da"
+type = "hook"
+name = "require-store-bootstrap"
+description = "PreToolUse(*): refuse every tool except get_session_context until it has run; on UserPromptSubmit it only warns."
+event_type = "PreToolUse"
+matcher = "*"
+language = "python"
+timeout_seconds = 10

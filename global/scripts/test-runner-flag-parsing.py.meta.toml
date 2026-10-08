@@ -1,0 +1,5 @@
+uuid = "33afbe5a-6608-54ec-8fd2-aa419a740424"
+type = "script"
+name = "test-runner-flag-parsing"
+description = "Battery proving hook-test-run.py and verify-quality-system.py parse --help/-h/--bogus without running any real work."
+language = "python"

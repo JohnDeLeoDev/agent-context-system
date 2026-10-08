@@ -1,0 +1,7 @@
+uuid = "f6eaa9fb-4ad9-5392-bada-675578f0cc12"
+type = "hook"
+name = "ralph-cleanup-stop"
+description = "Stop: drive the cleanup-audit Ralph loop; re-feed the prompt until the last <promise> tag matches or .claude/ralph-cleanup.cancel exists."
+event_type = "Stop"
+language = "python"
+timeout_seconds = 30

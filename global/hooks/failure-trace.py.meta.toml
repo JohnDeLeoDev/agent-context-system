@@ -1,0 +1,8 @@
+uuid = "289a8ca8-21cd-5488-902b-bc506ba6d200"
+type = "hook"
+name = "failure-trace"
+description = "PostToolUseFailure(*): append one JSONL record per failed tool call (tool, session, agent, redacted arguments, error head). Never blocks."
+event_type = "PostToolUseFailure"
+matcher = "*"
+language = "python"
+timeout_seconds = 10

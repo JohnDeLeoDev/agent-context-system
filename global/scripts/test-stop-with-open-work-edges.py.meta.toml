@@ -1,0 +1,5 @@
+uuid = "bc2bd655-104b-5b7f-84cb-08274089bafb"
+type = "script"
+name = "test-stop-with-open-work-edges"
+description = "Edge tests for block-stop-with-open-work: reports naming remaining risk pass, bulleted open work blocks, curly apostrophes match."
+language = "python"

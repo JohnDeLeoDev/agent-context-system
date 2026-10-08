@@ -1,0 +1,5 @@
+uuid = "b6bb1e32-cf44-5cc4-978e-8f2b8ff08e6f"
+type = "script"
+name = "test-python-per-host-edges"
+description = "Edge tests for interpreter-is-rendered on versioned bare interpreters and require-worktree-edit on symlinked files inside a repo."
+language = "python"

@@ -1,0 +1,8 @@
+uuid = "575537f6-d9ab-5fbd-b6c2-9392fc63ef77"
+type = "hook"
+name = "block-destructive-data-command"
+description = "PreToolUse(Bash): refuse dd onto a block device and DROP/TRUNCATE/unbounded DELETE through psql, sqlite3, mysql or mariadb."
+event_type = "PreToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 30

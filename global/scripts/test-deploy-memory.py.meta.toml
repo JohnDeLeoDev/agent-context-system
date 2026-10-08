@@ -1,0 +1,5 @@
+uuid = "ee33ece5-7803-5f9d-9ff5-9c31de7698bc"
+type = "script"
+name = "test-deploy-memory"
+description = "Tests deploy_memory.py, the push-to-deploy lookup, and the store_mcp features it uses: _meta passthrough, per-call deadline, repo_evidence."
+language = "python"

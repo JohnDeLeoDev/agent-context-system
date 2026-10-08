@@ -1,0 +1,5 @@
+uuid = "39769f76-c720-5fd5-ba87-e009aa285e7b"
+type = "script"
+name = "mockls"
+description = "Fake stdio language server for testing lspd: journals every message to $MOCKLS_JOURNAL; $MOCKLS_INDEX_MS simulates a cold index."
+language = "python"

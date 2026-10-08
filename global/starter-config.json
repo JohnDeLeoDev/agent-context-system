@@ -1,0 +1,17 @@
+{
+  "disabled_hooks": [
+    "agent-blocked-notify",
+    "agent-turn-finished-notify",
+    "audit-nudge",
+    "chrome-mcp-isolated-guard",
+    "context-audit-autorun",
+    "invariant-probe",
+    "iterm-tab-status",
+    "orphan-sweep",
+    "preflight-core-health",
+    "project-memory-verify-autorun",
+    "ralph-patch-guard",
+    "sync-fault-notice"
+  ],
+  "optional_integrations": "Enable required hooks after configuring local tools and services."
+}

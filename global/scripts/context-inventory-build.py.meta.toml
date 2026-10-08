@@ -1,0 +1,5 @@
+uuid = "574a2dc9-7fc3-5c53-95b9-6c747f74f229"
+type = "script"
+name = "context-inventory-build"
+description = "Context inventory step 1: lists every store file and installed harness copy into inventory.tsv. A re-run keeps verdicts for unchanged files."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "fe50882e-1938-5dda-8c56-1c21ca765799"
+type = "script"
+name = "write-outside-home-consent"
+description = "User-run, time-boxed approval for agent writes under one directory outside $HOME. Agents ask the user to run it; they cannot run it."
+language = "python"

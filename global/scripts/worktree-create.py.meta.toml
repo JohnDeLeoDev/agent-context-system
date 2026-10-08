@@ -1,0 +1,5 @@
+uuid = "a254b585-ef16-5112-ab13-dea8839376c7"
+type = "script"
+name = "worktree-create"
+description = "Create Claude git worktrees under the repo's .agents/worktrees directory"
+language = "python"

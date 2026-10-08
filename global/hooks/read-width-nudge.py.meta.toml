@@ -1,0 +1,8 @@
+uuid = "408e8d06-f096-5ea7-b07a-53e0ca62a73b"
+type = "hook"
+name = "read-width-nudge"
+description = "PostToolUse(Read): log each Read to read-telemetry.jsonl and warn when a file of 300 or more lines is read whole."
+event_type = "PostToolUse"
+matcher = "Read"
+language = "python"
+timeout_seconds = 10

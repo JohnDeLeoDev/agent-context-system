@@ -1,0 +1,5 @@
+uuid = "7adcda00-a3b6-55ca-83ff-7f9b01d887f5"
+type = "script"
+name = "merge-meta-stamp"
+description = "Git merge driver for .meta.toml sidecars (merge=acmetastamp): takes the newer side when only updated_at differs, else leaves the conflict."
+language = "python"

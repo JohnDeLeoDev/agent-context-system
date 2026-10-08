@@ -1,0 +1,5 @@
+uuid = "d3d3db7e-b19d-5245-bf60-850d306cc339"
+type = "script"
+name = "test-codex-parity-project-edges"
+description = "Project edge-case checks for Codex skill links and scoped MCP config exclusion."
+language = "python"

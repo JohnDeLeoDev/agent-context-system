@@ -1,0 +1,5 @@
+uuid = "8459d1e9-e49d-5cd4-bf83-65e552a37304"
+type = "script"
+name = "store_task"
+description = "Make a store-maintenance script a server task: inside the daemon it runs as is, elsewhere it forwards argv to run_store_task. Import it."
+language = "python"

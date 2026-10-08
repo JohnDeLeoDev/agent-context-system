@@ -1,0 +1,5 @@
+uuid = "1473067d-ca0d-5c5f-bf6a-90da16290818"
+type = "script"
+name = "test-harness-neutral-3a"
+description = "Tests that shared-skills and Xcode commands and settings project from the store, not from ~/.claude."
+language = "python"

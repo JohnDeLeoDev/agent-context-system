@@ -1,0 +1,5 @@
+uuid = "bd765f8c-170f-5b2f-98cc-c3c6c8d539ab"
+type = "script"
+name = "store-move-docs"
+description = "Move docs inside one scope, or split headings of a doc into an archive doc, and rewrite the links that pointed at them."
+language = "python"

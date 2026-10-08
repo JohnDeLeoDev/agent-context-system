@@ -1,0 +1,5 @@
+uuid = "b4c713f6-723c-50d8-88a8-7b7ea44f63c3"
+type = "script"
+name = "tree_copy"
+description = "Copy a store directory into a projection as rsync -rlt [--delete] does, using shutil where rsync is absent. Import it from materializers."
+language = "python"

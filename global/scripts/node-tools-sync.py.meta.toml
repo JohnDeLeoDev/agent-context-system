@@ -1,0 +1,5 @@
+uuid = "1adf60b1-0eb1-53e6-bc9c-cd70376323d0"
+type = "script"
+name = "node-tools-sync"
+description = "Install the store's Node tools with pnpm and link their bins into ~/.local/bin. Run after global/node-tools changes; --check only reports."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "517e364d-20fc-5ca1-82a7-68b4623f478a"
+type = "script"
+name = "test-home-materialize-foreign-dirs"
+description = "Tests that home-materialize.py leaves ~/.claude/skills/synced/ alone while still projecting store skills and removing stale ones."
+language = "python"

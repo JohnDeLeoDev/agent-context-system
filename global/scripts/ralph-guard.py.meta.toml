@@ -1,0 +1,5 @@
+uuid = "69bcb308-bb4f-57b8-9ca4-bd03ba62fcf9"
+type = "script"
+name = "ralph-guard"
+description = "Arm the ralph-loop Stop hook for this session from any cwd and check it returns decision=block. Run before starting a loop."
+language = "python"

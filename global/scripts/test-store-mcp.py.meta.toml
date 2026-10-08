@@ -1,0 +1,5 @@
+uuid = "2a6a11ce-0414-5c9c-a040-568917af0bb2"
+type = "script"
+name = "test-store-mcp"
+description = "Tests store_mcp.py against a fake MCP daemon: JSON and SSE replies, handshake order, token handling, error mapping, size cap, deadline."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "10d6e3e9-1026-5532-89cd-cf881d4d6c86"
+type = "script"
+name = "test-invariant-unsigned-env-pairs"
+description = "Tests that no-unsigned-commit-fallback flags signing turned off through GIT_CONFIG_KEY_n and GIT_CONFIG_VALUE_n pairs in any spelling."
+language = "python"

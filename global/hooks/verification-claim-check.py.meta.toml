@@ -1,0 +1,7 @@
+uuid = "6fcf35b2-ebad-5dec-8908-84ea994f575e"
+type = "hook"
+name = "verification-claim-check"
+description = "UserPromptSubmit: if the previous turn claimed tests or a build passed but ran neither, add a note to the next turn. Never blocks."
+event_type = "UserPromptSubmit"
+language = "python"
+timeout_seconds = 15

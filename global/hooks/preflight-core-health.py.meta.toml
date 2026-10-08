@@ -1,0 +1,7 @@
+uuid = "968e8415-7a7a-5d4d-9849-8996816bc1e0"
+type = "hook"
+name = "preflight-core-health"
+description = "SessionStart: gather core probe verdicts (MCP roster, LSP, hook registration, materialize) and report failures as a degraded block."
+event_type = "SessionStart"
+language = "python"
+timeout_seconds = 15

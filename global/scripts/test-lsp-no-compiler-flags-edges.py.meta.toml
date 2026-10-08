@@ -1,0 +1,5 @@
+uuid = "b5c2d7c1-2c8b-5fd7-9d85-ca80f0223a14"
+type = "script"
+name = "test-lsp-no-compiler-flags-edges"
+description = "Edge tests for the unbuilt-Swift gate: a buildServer.json with a duplicated build_root key still gates, and a non-JSON file still parses."
+language = "python"

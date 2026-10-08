@@ -1,0 +1,5 @@
+uuid = "1dc9d429-6bd9-5f11-a43a-cddd0648fe19"
+type = "script"
+name = "tool_output_compress"
+description = "Module: shorten a large, repetitive tool result (shared path prefix, repeated lines, same-form runs). Used by the compress-tool-output hook."
+language = "python"

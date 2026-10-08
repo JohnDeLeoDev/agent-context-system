@@ -1,0 +1,5 @@
+uuid = "f4639d97-6084-5a85-b220-6e1401687db4"
+type = "script"
+name = "test-precompact-store-writes"
+description = "Tests that the compaction snapshot lists store entities written through the agent-context MCP tools"
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "0674d003-3343-53f3-86ee-b1ba67c79c96"
+type = "script"
+name = "test-invariant-consolidation-edges"
+description = "Edge tests for invariant-check.py: malformed MCP manifests, npm installs split across lines, chezmoi launchers with stacked prefixes."
+language = "python"

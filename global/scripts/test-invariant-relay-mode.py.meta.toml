@@ -1,0 +1,5 @@
+uuid = "ee16da0b-d34c-5611-bf70-923d851266bc"
+type = "script"
+name = "test-invariant-relay-mode"
+description = "Tests relay-aware mode in invariant-check.py: without a store checkout, invariants that need one are skipped and do not change the exit."
+language = "python"

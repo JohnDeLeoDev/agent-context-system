@@ -1,0 +1,5 @@
+uuid = "a0b3e73c-f739-5c1c-b16e-da77fbe7e204"
+type = "script"
+name = "test-invariant-unsigned-gitconfig"
+description = "Tests that no-unsigned-commit-fallback flags every spelling that turns commit signing off, config-file form included, in server/tests too."
+language = "python"

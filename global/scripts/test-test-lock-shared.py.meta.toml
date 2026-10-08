@@ -1,0 +1,5 @@
+uuid = "41f54a6a-45a1-5654-916d-701e46229f00"
+type = "script"
+name = "test-test-lock-shared"
+description = "Tests store-wide test locks: a lock on a store test is a committed record, so every host refuses edits and an approved unlock removes it."
+language = "python"

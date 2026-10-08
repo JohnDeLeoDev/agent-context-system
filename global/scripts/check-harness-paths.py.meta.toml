@@ -1,0 +1,5 @@
+uuid = "53f56381-4ddc-56a1-8060-4424c2bbc3fe"
+type = "script"
+name = "check-harness-paths"
+description = "Lint: list every place Python code builds a harness (.claude) path by hand, not through harness_paths."
+language = "python"

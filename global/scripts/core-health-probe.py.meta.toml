@@ -1,0 +1,5 @@
+uuid = "dba35cba-ead2-557c-b814-44b31c75704b"
+type = "script"
+name = "core-health-probe"
+description = "Background probe: compares `claude mcp list` health with the expected mcp-servers.json set and writes a verdict to state/health/mcp.json."
+language = "python"

@@ -1,0 +1,7 @@
+uuid = "79523315-9812-54df-9f26-c2449bbe9f8e"
+type = "hook"
+name = "iterm-tab-status"
+description = "Stop: set the iTerm2 tab's Claude status (idle, working, waiting) from a remote tmux pane; no-op where iTerm2's own cc-status is installed."
+event_type = "Stop"
+language = "python"
+timeout_seconds = 5

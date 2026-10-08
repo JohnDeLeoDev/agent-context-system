@@ -1,0 +1,5 @@
+uuid = "cb59efbe-af2a-521e-978c-fd7991dc725f"
+type = "script"
+name = "test-guard-git-write"
+description = "Tests guard-git-write's user consent token: each case checks the verdict and whether the token survived. Run after changing the guard."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "4cdd8161-1d7f-5c79-9aea-ccd532e90c73"
+type = "script"
+name = "script-parity-run"
+description = "Run a store script's shell original and its Python port in one fixture HOME and compare exit code, output and effects. Run when porting."
+language = "python"

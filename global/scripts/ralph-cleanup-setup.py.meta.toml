@@ -1,0 +1,5 @@
+uuid = "9e35572a-87e7-5a06-b072-14bf5915fc7d"
+type = "script"
+name = "ralph-cleanup-setup"
+description = "Install the Ralph-loop cleanup wiring (arming file, stop-hook plumbing) on a machine. Run by hand once per machine."
+language = "python"

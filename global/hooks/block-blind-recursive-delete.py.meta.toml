@@ -1,0 +1,8 @@
+uuid = "45487c88-2a46-552c-82a3-91b102a950e1"
+type = "hook"
+name = "block-blind-recursive-delete"
+description = "PreToolUse(Bash): refuse a recursive delete of a non-empty directory that is not a build artifact; scratch roots print an inventory first."
+event_type = "PreToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 15

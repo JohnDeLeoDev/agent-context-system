@@ -1,0 +1,5 @@
+uuid = "6af62004-bf93-5cad-b9c6-07e282381cfe"
+type = "script"
+name = "test-lspd-ordering"
+description = "Regression test for lspd document close/open wire ordering across concurrent threads."
+language = "python"

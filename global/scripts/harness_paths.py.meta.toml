@@ -1,0 +1,5 @@
+uuid = "153d03d0-33cb-5154-a06d-404bdcba1fd2"
+type = "script"
+name = "harness_paths"
+description = "The one place harness directory paths are built. Import it; do not build ~/.claude paths by hand."
+language = "python"

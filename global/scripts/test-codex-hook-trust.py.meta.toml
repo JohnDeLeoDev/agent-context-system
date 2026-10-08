@@ -1,0 +1,5 @@
+uuid = "39d66d07-0e3c-5df4-92e9-8c4b4612c28f"
+type = "script"
+name = "test-codex-hook-trust"
+description = "Tests Codex hook trust: replaces only agent-context's generated trust records, keeps unrelated ones, retires stale hashes, idempotent."
+language = "python"

@@ -1,0 +1,8 @@
+uuid = "14648f7f-67d6-5995-9ace-e881ca6bdadd"
+type = "hook"
+name = "warn-truncated-search"
+description = "PostToolUse(Bash): warn when grep, rg, find or git grep is piped into head, tail or sed -n. Never blocks."
+event_type = "PostToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 10

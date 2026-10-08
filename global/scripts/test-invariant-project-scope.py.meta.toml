@@ -1,0 +1,5 @@
+uuid = "868f1c66-146a-59a8-8978-ae2d5f26ee8c"
+type = "script"
+name = "test-invariant-project-scope"
+description = "Tests invariant-check.py at project scope: shell-is-launcher-only, interpreter-is-rendered and no-retired-script-reference under projects/."
+language = "python"

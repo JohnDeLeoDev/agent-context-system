@@ -1,0 +1,5 @@
+uuid = "a2b9454d-2f1d-5f1a-8414-601b29b2c5aa"
+type = "script"
+name = "test-test-lock-shared-edges"
+description = "Edge tests for store-wide test locks: worktree copies refused, record names cannot collide, bad records reported by status."
+language = "python"

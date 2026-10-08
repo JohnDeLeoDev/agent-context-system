@@ -1,0 +1,5 @@
+uuid = "36652039-12c1-50fa-8af3-078d3630e942"
+type = "script"
+name = "test-deps-sync"
+description = "Tests deps-sync.py: channel and package safety gates, fix parsing, running-process skip, dry-run default, --apply selection, exit codes."
+language = "python"

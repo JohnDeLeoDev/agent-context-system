@@ -1,0 +1,5 @@
+uuid = "06660ae0-d75b-5a28-ab97-bffc9535d603"
+type = "script"
+name = "store-compact"
+description = "Report prune work in the store; --apply archives spent audit observations and handoffs and rewrites links to them. Run periodically."
+language = "python"

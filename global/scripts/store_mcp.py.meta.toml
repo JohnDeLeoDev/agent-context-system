@@ -1,0 +1,5 @@
+uuid = "4dde5b2d-7149-5171-b626-69d5a1068c5f"
+type = "script"
+name = "store_mcp"
+description = "Stdlib MCP tools/call client to the daemon, local or relay. Import it from any store script that reads or writes agent-context content."
+language = "python"

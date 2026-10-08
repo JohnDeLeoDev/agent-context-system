@@ -1,0 +1,7 @@
+uuid = "1062425a-533d-58b2-aeec-dca2d15d51a3"
+type = "hook"
+name = "file-memory-drift-check"
+description = "SessionStart: report any harness file-memory directory that has reappeared on disk; backstop for block-file-memory-write."
+event_type = "SessionStart"
+language = "python"
+timeout_seconds = 10

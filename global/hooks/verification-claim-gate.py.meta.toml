@@ -1,0 +1,7 @@
+uuid = "b7d545fa-18f9-5fb1-88bd-2a5f04c677e5"
+type = "hook"
+name = "verification-claim-gate"
+description = "Stop: refuse a turn that claims a verification nothing ran, or edited source with no check and no statement that it is unverified."
+event_type = "Stop"
+language = "python"
+timeout_seconds = 15

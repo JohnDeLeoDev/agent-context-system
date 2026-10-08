@@ -1,0 +1,5 @@
+uuid = "6d9ee606-1023-53bd-8927-3643e106fc8e"
+type = "script"
+name = "test-test-lock-worktree-records"
+description = "Tests that a lock taken in a store worktree is a record in that worktree's global/test-locks/, lands with the branch and binds edits."
+language = "python"

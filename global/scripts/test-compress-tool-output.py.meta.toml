@@ -1,0 +1,5 @@
+uuid = "b6e74db2-4fbc-557b-90cb-502238ee92df"
+type = "script"
+name = "test-compress-tool-output"
+description = "Battery for the compress-tool-output hook: its rules, result shapes, the dispatcher, and the Codex, opencode and pi adapters."
+language = "python"

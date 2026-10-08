@@ -1,0 +1,7 @@
+uuid = "d4ece90e-deb2-517c-b048-bdca95ccd4c7"
+type = "hook"
+name = "ralph-patch-guard"
+description = "SessionStart: re-apply the local patches to the ralph-loop plugin Stop hook after a plugin update reverts them."
+event_type = "SessionStart"
+language = "python"
+timeout_seconds = 30

@@ -1,0 +1,5 @@
+uuid = "276a6171-ec06-59c6-985c-affadedf719c"
+type = "script"
+name = "deploy_memory"
+description = "Looks up over MCP which store memory says a repo deploys on push. Imported by block-deploy and guard-git-write; raises StoreUnreachable."
+language = "python"

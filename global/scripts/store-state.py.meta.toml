@@ -1,0 +1,5 @@
+uuid = "d250f844-0c37-55a0-a52a-4ae80cb84a36"
+type = "script"
+name = "store-state"
+description = "Server task for the store's shared state files: the context-audit schedule and fleet lock (claim-audit, finish-audit, show-audit)."
+language = "python"

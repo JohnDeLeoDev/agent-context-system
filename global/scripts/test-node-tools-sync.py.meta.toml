@@ -1,0 +1,5 @@
+uuid = "466a3557-48e5-5c0b-9fe6-205313564db9"
+type = "script"
+name = "test-node-tools-sync"
+description = "Tests node-tools-sync.py and the pnpm tools manifest: latest install, copilot-api patch, bin links, --check never fetches, refusals."
+language = "python"

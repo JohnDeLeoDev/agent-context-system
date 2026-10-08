@@ -1,0 +1,40 @@
+[project]
+name = "agent-context"
+version = "0.1.0"
+description = "Agent context store — MCP server over a git-backed file tree (no database)"
+requires-python = ">=3.14"
+dependencies = [
+    "mcp[cli]>=1.9.0,<2",
+]
+
+[dependency-groups]
+dev = [
+    "pytest>=8.0",
+    "pytest-xdist>=3.6",
+    "PyYAML>=6.0",
+    "httpx2>=2.13",
+]
+
+[project.scripts]
+agent-context = "agent_context.server:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.ruff]
+line-length = 100
+target-version = "py314"
+
+[tool.ruff.lint]
+# E/F/W = correctness; I = import order; UP = modern syntax; B = bugbear; SIM = simplifications;
+# RUF = ruff's own; PIE/PERF/FURB/ISC = small hygiene. Deliberately NOT enabled: BLE001/S110
+# (fail-silent telemetry and best-effort daemon paths swallow exceptions on purpose), PLW1510
+# (every subprocess.run here reads returncode itself), SIM115 (short-lived opens in the store).
+select = ["E", "F", "W", "I", "UP", "B", "SIM", "RUF", "PIE", "PERF", "FURB", "ISC"]
+ignore = ["SIM115", "E501", "RUF001", "RUF002", "RUF003", "B905"]
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["B011", "SIM117", "SIM300", "E731"]
+# Reuses the `make` fixture from test_oauth_connector.py by import; the parameters shadow it.
+"tests/test_oauth_connector_findings.py" = ["F811"]

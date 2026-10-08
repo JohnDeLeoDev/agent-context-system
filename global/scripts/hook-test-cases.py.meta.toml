@@ -1,0 +1,5 @@
+uuid = "8888963f-ac83-56b7-b8d6-2a560c590263"
+type = "script"
+name = "hook-test-cases"
+description = "Deny and allow cases for every enforcing hook, run by hook-test-run.py. Add both directions when adding or changing a hook."
+language = "python"

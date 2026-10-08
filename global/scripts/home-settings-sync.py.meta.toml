@@ -1,0 +1,5 @@
+uuid = "4f473b85-6584-5d1a-b063-f16b9fb63487"
+type = "script"
+name = "home-settings-sync"
+description = "Merges store-managed hooks and settings values into ~/.claude/settings.json, keeping machine-local entries. Run by home-materialize.py."
+language = "python"

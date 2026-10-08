@@ -1,0 +1,5 @@
+uuid = "453a889c-c432-5120-b920-56a79530d88a"
+type = "script"
+name = "test-harness-paths"
+description = "Battery for harness_paths.py: accessors, home handling, import locations, settings.json bytes unchanged."
+language = "python"

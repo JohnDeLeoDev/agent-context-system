@@ -1,0 +1,5 @@
+uuid = "87de6de8-9942-5cbf-af03-b23c562557e8"
+type = "script"
+name = "test-harness-paths-migrated"
+description = "Battery: the store's scripts and hooks build no harness path by hand, and every hook still loads after the migration."
+language = "python"

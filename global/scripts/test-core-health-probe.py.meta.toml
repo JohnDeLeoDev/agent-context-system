@@ -1,0 +1,5 @@
+uuid = "358cea97-6e78-5697-a380-c936255f5450"
+type = "script"
+name = "test-core-health-probe"
+description = "Tests core-health-probe's verdict classification and preflight-core-health's re-probe trigger. Run after changing either script."
+language = "python"

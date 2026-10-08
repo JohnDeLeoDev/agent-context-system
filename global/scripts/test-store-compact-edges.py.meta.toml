@@ -1,0 +1,5 @@
+uuid = "286d2b5a-adef-5d0b-81ea-ef702c88719d"
+type = "script"
+name = "test-store-compact-edges"
+description = "Edge tests for store-compact.py's spent-handoff rule: a Status word that only starts with consumed or stale is not a spent status."
+language = "python"

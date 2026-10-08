@@ -1,0 +1,5 @@
+uuid = "16c73860-11cb-53b1-a8b5-c346844141d8"
+type = "script"
+name = "test-project-materialize-fetch"
+description = "Tests MCP project-scope fetching in materialize and drift checks: stale checkout precedence, safe failures, unconfigured local fallback."
+language = "python"

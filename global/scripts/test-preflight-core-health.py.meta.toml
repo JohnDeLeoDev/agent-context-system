@@ -1,0 +1,5 @@
+uuid = "d31eb544-3a91-5ad5-b7cb-349c2f3eb34a"
+type = "script"
+name = "test-preflight-core-health"
+description = "Tests preflight-core-health, preflight-crash-watch and health-record: false alarms and crash reporting. Run after changing any of them."
+language = "python"

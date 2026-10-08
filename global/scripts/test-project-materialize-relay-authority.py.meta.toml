@@ -1,0 +1,5 @@
+uuid = "87850698-91ec-5133-94fa-db66560fb230"
+type = "script"
+name = "test-project-materialize-relay-authority"
+description = "Tests MCP project projection: stale local checkouts, read-only drift checks, kept files on a failed fetch, scratch cleanup."
+language = "python"

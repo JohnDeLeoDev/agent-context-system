@@ -1,0 +1,5 @@
+uuid = "dc5fab57-3e49-5be9-9ec0-b347f6adaa86"
+type = "script"
+name = "test-relay-host-daemon-verdicts"
+description = "Tests that on a relay host preflight-core-health and sync-fault-notice skip daemon-only health verdicts, and a daemon host reports all."
+language = "python"

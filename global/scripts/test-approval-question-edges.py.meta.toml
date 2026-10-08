@@ -1,0 +1,5 @@
+uuid = "fb3b933f-c5b0-51fd-93d0-10a558f002be"
+type = "script"
+name = "test-approval-question-edges"
+description = "Edge tests for approval-question: pending marks bound to one tool use, content key without ids, guarded mark directory, grant time budget."
+language = "python"

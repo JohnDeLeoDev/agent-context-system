@@ -1,0 +1,8 @@
+uuid = "d92b43c1-4331-5800-9824-669d78fcf626"
+type = "hook"
+name = "block-git-stash"
+description = "PreToolUse(Bash): refuse git stash subcommands that move working-tree state; list, show and drop pass."
+event_type = "PreToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 30

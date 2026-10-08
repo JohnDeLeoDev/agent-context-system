@@ -1,0 +1,8 @@
+uuid = "487e4a92-b5cd-51cf-b3d6-1ef108f91b73"
+type = "hook"
+name = "block-shell-file-read"
+description = "PreToolUse(Bash): refuse a command that only reads a file (cat, head, tail, sed -n); warn on grep or rg over a path."
+event_type = "PreToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 10

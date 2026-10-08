@@ -1,0 +1,5 @@
+uuid = "15078393-c6f8-55c1-9fbb-d8dfe291bd6d"
+type = "script"
+name = "init-project"
+description = "Scaffolds a project's .claude/ and CLAUDE.md from a stack template in templates/projects/<stack>. Idempotent; run once per new project."
+language = "python"

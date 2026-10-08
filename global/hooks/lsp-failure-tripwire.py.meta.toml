@@ -1,0 +1,8 @@
+uuid = "56ec3799-c423-55e1-af75-4ee352506875"
+type = "hook"
+name = "lsp-failure-tripwire"
+description = "PostToolUse+PostToolUseFailure(LSP tools): arm a session tripwire when a language-server call fails as dead; disarm on a success."
+event_type = "PostToolUse"
+matcher = "mcp__[a-zA-Z0-9]+-lsp__.*|LSP"
+language = "python"
+timeout_seconds = 10

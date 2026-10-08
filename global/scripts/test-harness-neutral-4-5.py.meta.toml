@@ -1,0 +1,5 @@
+uuid = "ca53e7b1-3652-5af8-b743-cc6621fc7937"
+type = "script"
+name = "test-harness-neutral-4-5"
+description = "Tests that hooks and scripts run in place from the store, docs are read over MCP, and ~/.claude/{hooks,scripts,docs} are retired."
+language = "python"

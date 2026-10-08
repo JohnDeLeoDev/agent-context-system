@@ -1,0 +1,5 @@
+uuid = "35b194c0-d48e-5630-9746-be53814f7b9c"
+type = "script"
+name = "codex-hook-adapter"
+description = "Maps Codex tool names and lifecycle payloads onto the Claude hook contract so both harnesses run the same hook bodies. Run by Codex hooks."
+language = "python"

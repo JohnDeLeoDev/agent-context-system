@@ -1,0 +1,8 @@
+uuid = "a7df79b3-4f2a-5740-b1ef-2471c697f46a"
+type = "hook"
+name = "approval-question"
+description = "PreToolUse+PostToolUse(AskUserQuestion): refuse a malformed or model-answered approval question; run the consent script when user approves."
+event_type = "PreToolUse"
+matcher = "AskUserQuestion"
+language = "python"
+timeout_seconds = 30

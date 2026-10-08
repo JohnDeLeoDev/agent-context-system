@@ -1,0 +1,5 @@
+uuid = "46638e83-b055-578d-aba9-9c7d45422bbb"
+type = "script"
+name = "test-invariant-consolidation"
+description = "Tests the shell-is-launcher-only and node-tools-pinned invariants in invariant-check.py against a fixture store and chezmoi source."
+language = "python"

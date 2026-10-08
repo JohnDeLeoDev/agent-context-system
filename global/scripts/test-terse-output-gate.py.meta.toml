@@ -1,0 +1,5 @@
+uuid = "daaa98fd-752e-50c8-88f2-f23e88c1677a"
+type = "script"
+name = "test-terse-output-gate"
+description = "Tests terse-output-gate and terse-judge: blocks an unearned long close, allows earned shapes, writes one telemetry row per judged turn."
+language = "python"

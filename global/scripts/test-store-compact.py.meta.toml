@@ -1,0 +1,5 @@
+uuid = "3e81f3bc-2261-5023-8f5e-689c737e86b2"
+type = "script"
+name = "test-store-compact"
+description = "Tests store-compact.py: the spent-handoff rule in every scope, workspace-aware fix calls, and the existing report kinds."
+language = "python"

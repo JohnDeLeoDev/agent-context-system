@@ -1,0 +1,8 @@
+uuid = "edb8e470-3312-5cf1-99e2-6d7794d2561c"
+type = "hook"
+name = "block-instruction-budget-overrun"
+description = "PreToolUse: refuse a store write that pushes a scope's always-loaded instruction bytes past its budget."
+event_type = "PreToolUse"
+matcher = "mcp__agent-context__upsert_instruction|mcp__agent-context__edit_body"
+language = "python"
+timeout_seconds = 15

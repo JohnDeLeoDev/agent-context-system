@@ -1,0 +1,5 @@
+uuid = "10aa2b7d-dd77-592a-8205-70ff2ca6a9a4"
+type = "script"
+name = "lspd"
+description = "Shared warm language server daemon per server and checkout. `--resync [paths]` re-seats documents; `--restart --key K` restarts."
+language = "python"

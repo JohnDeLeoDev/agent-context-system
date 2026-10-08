@@ -1,0 +1,5 @@
+uuid = "b39a2f56-08d1-5fb8-a011-f2d53e982aad"
+type = "script"
+name = "hook-interaction-report"
+description = "Replays every deny case through its hook's full chain to find guards masked by an earlier refusal. --selftest checks the detector."
+language = "python"

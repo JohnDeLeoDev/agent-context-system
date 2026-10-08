@@ -1,0 +1,5 @@
+uuid = "40b1df6a-90e1-5f67-a50a-f9602ffcecb5"
+type = "script"
+name = "test-lsp-no-compiler-flags"
+description = "Tests that lspd.py --mcp and lsp-canary.py report an unbuilt Swift project at once with a build instruction, and leave built projects alone."
+language = "python"

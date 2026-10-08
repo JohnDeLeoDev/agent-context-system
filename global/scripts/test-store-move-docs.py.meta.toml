@@ -1,0 +1,5 @@
+uuid = "94e0a360-9b0e-5e44-ab9e-4ffa2e51b4e5"
+type = "script"
+name = "test-store-move-docs"
+description = "Tests store-move-docs.py: doc moves with link, typed-link and pointer rewrites, refusals, and section splits."
+language = "python"

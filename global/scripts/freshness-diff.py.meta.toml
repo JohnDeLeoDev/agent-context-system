@@ -1,0 +1,5 @@
+uuid = "5a0b163f-b92c-5c90-8339-3c8525ec87c3"
+type = "script"
+name = "freshness-diff"
+description = "Flags always-loaded entities older than a file their body names. Report only; --json for tooling, --all to include lazy entities."
+language = "python"

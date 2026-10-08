@@ -1,0 +1,5 @@
+uuid = "c9be3c48-24d6-5ddd-bf05-4ff7e1a5c2c7"
+type = "script"
+name = "test-harness-neutral-3c"
+description = "Tests that state and health files live under ~/.local/state/agent-context, with a one-time migration out of ~/.claude/state."
+language = "python"

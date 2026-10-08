@@ -1,0 +1,5 @@
+uuid = "a13b4fbe-9994-5386-ae9b-e23836eb09c2"
+type = "script"
+name = "test-block-blind-recursive-delete"
+description = "Tests the block-blind-recursive-delete hook: shared deny/allow cases plus stateful cases for empty, filled and scratch directories."
+language = "python"

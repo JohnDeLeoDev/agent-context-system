@@ -1,0 +1,5 @@
+uuid = "e0460a3e-96fb-5318-bf6e-bf1c22065505"
+type = "script"
+name = "test-codex-claude-only-events-stopfailure-teammateidle"
+description = "Tests that harness-materialize.py classifies StopFailure and TeammateIdle as Claude-only and raises no Codex parity finding."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "501b3535-f68e-52b9-b74c-2b5bc47ac105"
+type = "script"
+name = "starter_profile"
+description = "Shared hook selection for harness projections."
+language = "python"

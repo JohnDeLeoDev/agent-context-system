@@ -1,0 +1,5 @@
+uuid = "3fe606b6-9543-5ab2-a3ea-39ad85df8e1e"
+type = "script"
+name = "test-ralph-patch-guard"
+description = "Test the Ralph stop-hook patch guard: PATCH E stand-down, PATCH B re-patching, and decimal parsing of zero-padded intervals."
+language = "python"

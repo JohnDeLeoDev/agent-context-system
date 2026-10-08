@@ -1,0 +1,5 @@
+uuid = "c55b5a1a-1e1e-5d5f-a3d1-5a4376033041"
+type = "script"
+name = "deps-check"
+description = "Reports which dependencies in global/deps/manifest.toml this machine lacks. Read-only; writes deps.json and a health verdict for preflight."
+language = "python"

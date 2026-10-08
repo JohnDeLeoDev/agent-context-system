@@ -1,0 +1,5 @@
+uuid = "912a1331-ddf6-5977-bfdc-7b15f06df247"
+type = "script"
+name = "test-retire-home-anchor"
+description = "Tests that retire_claude_projections keeps old copies only when a config names the HOME-anchored ~/.claude directories."
+language = "python"

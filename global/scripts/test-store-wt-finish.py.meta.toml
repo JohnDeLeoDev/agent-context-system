@@ -1,0 +1,5 @@
+uuid = "51b3defa-1c55-57e3-9e7f-7319146ea8b0"
+type = "script"
+name = "test-store-wt-finish"
+description = "Tests store-wt-finish.py's two landing shapes: rebase and fast-forward for an ordinary branch, a merge for one with another machine's tip."
+language = "python"

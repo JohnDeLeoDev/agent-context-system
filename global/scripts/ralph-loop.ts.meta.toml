@@ -1,0 +1,5 @@
+uuid = "be4579ce-4745-54b1-92d3-02c492114117"
+type = "script"
+name = "ralph-loop"
+description = "pi extension that drives Ralph loops from agent_settled via .claude/ralph-loop.local.md and yields to a Claude session that owns the loop."
+language = "typescript"

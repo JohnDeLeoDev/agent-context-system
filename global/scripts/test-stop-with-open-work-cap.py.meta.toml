@@ -1,0 +1,5 @@
+uuid = "556f00b3-afdc-594d-baa6-b6d941f15918"
+type = "script"
+name = "test-stop-with-open-work-cap"
+description = "Tests block-stop-with-open-work's continuation cap and feedback: at most two refusals per prompt, and open items named in the reason."
+language = "python"

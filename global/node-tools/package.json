@@ -1,0 +1,12 @@
+{
+  "name": "agent-context-node-tools",
+  "private": true,
+  "description": "The Node tools agent-context sessions run, always at their latest release (Consolidation Phase 6a). Installed by global/scripts/node-tools-sync.py; never pin a version here.",
+  "agentContextBins": ["copilot-api", "tsgo"],
+  "dependencies": {
+    "@mozilla/firefox-devtools-mcp": "latest",
+    "@typescript/native-preview": "latest",
+    "copilot-api": "latest",
+    "xcodebuildmcp": "latest"
+  }
+}

@@ -1,0 +1,8 @@
+uuid = "53a7dfe1-1629-5da6-ac3a-c27127f08496"
+type = "hook"
+name = "block-agent-file-force-add"
+description = "PreToolUse(Bash): refuse `git add -f` of a .agents/ or .claude/ path into a project repo; the store and chezmoi are exempt."
+event_type = "PreToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 15

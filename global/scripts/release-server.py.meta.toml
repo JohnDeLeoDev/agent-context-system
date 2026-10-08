@@ -1,0 +1,5 @@
+uuid = "3580834f-19e2-5231-9b76-100f8d39d905"
+type = "script"
+name = "release-server"
+description = "Release the agent-context server: run the compile, test and lint gates, bump server/VERSION and commit server/ only."
+language = "python"

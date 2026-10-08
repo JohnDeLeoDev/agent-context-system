@@ -1,0 +1,5 @@
+uuid = "c87eb3b6-949d-5dcb-88d5-e17bdeba95a9"
+type = "script"
+name = "test-remind-critical-rules"
+description = "Tests that every section remind-critical-rules cites is a real heading in the global instruction or AGENTS.md."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "ce465c26-40bc-5bb1-ab1c-bde854cdc8d2"
+type = "script"
+name = "test-codex-hook-materialize"
+description = "Tests Codex hook projection: native and translated events, success and failure routing, notifications, idempotent retirement, isolation."
+language = "python"

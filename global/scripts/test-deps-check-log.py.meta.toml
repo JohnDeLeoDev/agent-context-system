@@ -1,0 +1,5 @@
+uuid = "4d089d9a-29c7-527e-8007-992534da78ec"
+type = "script"
+name = "test-deps-check-log"
+description = "Tests that deps-check.py rewrites deps-check.log whenever it writes deps.json, and that --no-record leaves the log alone."
+language = "python"

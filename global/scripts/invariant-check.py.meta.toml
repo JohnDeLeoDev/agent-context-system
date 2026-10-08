@@ -1,0 +1,5 @@
+uuid = "11fdc9f1-0704-5a17-a8eb-c9c26c37acab"
+type = "script"
+name = "invariant-check"
+description = "Asserts the store's registered invariants at every site. --verify checks allowlists, --paths scopes to a set, --health writes a verdict."
+language = "python"

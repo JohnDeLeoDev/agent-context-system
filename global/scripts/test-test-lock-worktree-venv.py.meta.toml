@@ -1,0 +1,5 @@
+uuid = "67e65646-e0d6-59d3-9c9a-d12243e5b41e"
+type = "script"
+name = "test-test-lock-worktree-venv"
+description = "Tests test-lock.py's server_python: a store worktree typechecks against the main checkout's server venv, then the machine venv."
+language = "python"

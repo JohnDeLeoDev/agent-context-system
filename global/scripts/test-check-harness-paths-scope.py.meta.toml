@@ -1,0 +1,5 @@
+uuid = "992f6285-ec3a-5c3e-aef1-8b5d882615ca"
+type = "script"
+name = "test-check-harness-paths-scope"
+description = "Battery for the checker's test-file skip rule and --include-tests flag."
+language = "python"

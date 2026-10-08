@@ -1,0 +1,5 @@
+uuid = "5b1b6014-8bc4-5cc3-99d2-cec01ab25804"
+type = "script"
+name = "test-require-worktree-edit-bash"
+description = "Tests the require-worktree-edit-bash hook: shell writes to source that must block and reads, builds and exempt trees that must pass."
+language = "python"

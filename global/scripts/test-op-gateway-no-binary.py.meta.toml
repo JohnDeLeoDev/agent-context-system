@@ -1,0 +1,5 @@
+uuid = "61eb4e77-ce1c-5ee0-973f-110dee0cb54f"
+type = "script"
+name = "test-op-gateway-no-binary"
+description = "Tests that the op gateway port exits 127 when no real 1Password CLI is found, a case wrapper-parity-run cannot reach."
+language = "python"

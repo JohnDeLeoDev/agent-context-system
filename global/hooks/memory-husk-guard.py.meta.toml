@@ -1,0 +1,8 @@
+uuid = "948a8ec5-0393-54ec-9198-c06e5f914885"
+type = "hook"
+name = "memory-husk-guard"
+description = "PreToolUse(store text writes): refuse text carrying a provider-prefixed credential; warn on fuzzy secret shapes and retired memory husks."
+event_type = "PreToolUse"
+matcher = "mcp__agent-context__add_audit_observation|mcp__agent-context__bulk_edit|mcp__agent-context__edit_body|mcp__agent-context__resolve_audit_observation|mcp__agent-context__update_audit_observation|mcp__agent-context__upsert_agent_definition|mcp__agent-context__upsert_command|mcp__agent-context__upsert_doc|mcp__agent-context__upsert_hook|mcp__agent-context__upsert_instruction|mcp__agent-context__upsert_memory|mcp__agent-context__upsert_script|mcp__agent-context__upsert_skill"
+language = "python"
+timeout_seconds = 15

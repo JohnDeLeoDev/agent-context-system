@@ -1,0 +1,7 @@
+uuid = "f1e17d67-dc6e-5aef-9caa-1a47b1051b74"
+type = "hook"
+name = "block-handing-user-a-runnable-step"
+description = "Stop: refuse a final message that tells user to run a step the agent could run, or shows a short command it never ran."
+event_type = "Stop"
+language = "python"
+timeout_seconds = 10

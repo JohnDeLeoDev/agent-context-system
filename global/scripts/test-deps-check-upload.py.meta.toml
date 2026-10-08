@@ -1,0 +1,5 @@
+uuid = "43bde69e-4f3d-5129-ab5a-00387e024f47"
+type = "script"
+name = "test-deps-check-upload"
+description = "Tests deps-check.py's relay-only upload of its report to the daemon's PUT /deps/{uuid_hint}.json route."
+language = "python"

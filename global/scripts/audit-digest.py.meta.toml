@@ -1,0 +1,5 @@
+uuid = "e99db7cc-3ecc-578a-b9bd-e80cc6fdf000"
+type = "script"
+name = "audit-digest"
+description = "Prints the open audit observations digest, worst then oldest, fetched from the daemon's GET /doc. Run to see what needs a human."
+language = "python"

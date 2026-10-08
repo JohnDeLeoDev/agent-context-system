@@ -1,0 +1,5 @@
+uuid = "4a7f8947-cfe9-584f-8bf8-89a3819bf346"
+type = "script"
+name = "test-codex-parity-regressions"
+description = "Regression checks for Codex projection safety and native metadata."
+language = "python"

@@ -1,0 +1,7 @@
+uuid = "26965235-c209-5cb5-8c93-a9cfa9dfb9ea"
+type = "hook"
+name = "subagent-return-gate"
+description = "SubagentStop: send back a worker report with a live credential, a prose decision question, banned wording or over 400 words."
+event_type = "SubagentStop"
+language = "python"
+timeout_seconds = 10

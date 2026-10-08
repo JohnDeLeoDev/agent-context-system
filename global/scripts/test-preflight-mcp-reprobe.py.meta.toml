@@ -1,0 +1,5 @@
+uuid = "0a389112-5a9f-5bd0-b1d1-ce47bac2221e"
+type = "script"
+name = "test-preflight-mcp-reprobe"
+description = "Tests that preflight-core-health re-probes a cached MCP verdict naming a degraded or missing server before repeating it."
+language = "python"

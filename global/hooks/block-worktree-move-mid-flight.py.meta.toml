@@ -1,0 +1,8 @@
+uuid = "d236b8a6-bd1a-573b-be09-ebd2473e30a1"
+type = "hook"
+name = "block-worktree-move-mid-flight"
+description = "PreToolUse(EnterWorktree|ExitWorktree): refuse a checkout move while subagents are running, since their cwd is fixed at launch."
+event_type = "PreToolUse"
+matcher = "EnterWorktree|ExitWorktree"
+language = "python"
+timeout_seconds = 15

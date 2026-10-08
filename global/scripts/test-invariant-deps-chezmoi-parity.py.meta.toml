@@ -1,0 +1,5 @@
+uuid = "9705b7ac-41c7-5703-8c5c-921a9c5483ef"
+type = "script"
+name = "test-invariant-deps-chezmoi-parity"
+description = "Tests the deps-chezmoi-parity invariant: chezmoi package lists and global/node-tools must match the dependency manifest."
+language = "python"

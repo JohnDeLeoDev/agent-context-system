@@ -1,0 +1,5 @@
+uuid = "1d4382f8-0115-5429-88c3-648e6f280a23"
+type = "script"
+name = "wt-sweep"
+description = "Remove empty worktree husks under .agents/worktrees and legacy .claude/worktrees, then prune dead Rider run-config pointers."
+language = "python"

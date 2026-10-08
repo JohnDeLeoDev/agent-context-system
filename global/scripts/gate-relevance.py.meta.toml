@@ -1,0 +1,5 @@
+uuid = "ca30277a-6222-5be7-b137-d382cef9c487"
+type = "script"
+name = "gate-relevance"
+description = "Tells whether a branch's changed paths can affect a build output: exit 0 means skip the landing gate, exit 1 run it. Used by wt-finish.sh."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "b226a17e-81a2-5beb-a239-65e144e40852"
+type = "script"
+name = "hook-test-run"
+description = "Runs the cases in hook-test-cases.py, feeding each hook a stdin payload and asserting deny or allow. --hook filters to one."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "4426c7d0-1746-5bfc-938c-92e1c62ed578"
+type = "script"
+name = "self-heal"
+description = "Repair core-system faults that have one idempotent remedy (store venv, hook registration, materialize, mirror converge); print the rest."
+language = "python"

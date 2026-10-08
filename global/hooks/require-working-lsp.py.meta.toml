@@ -1,0 +1,8 @@
+uuid = "7b8e88a1-ad9a-54db-b65c-4dbb78d22b35"
+type = "hook"
+name = "require-working-lsp"
+description = "PreToolUse(file writes, Task|Agent|Workflow): refuse source edits and subagent spawns while lsp-failure-tripwire is armed."
+event_type = "PreToolUse"
+matcher = "Write|Edit|MultiEdit|NotebookEdit|Task|Agent|Workflow"
+language = "python"
+timeout_seconds = 10

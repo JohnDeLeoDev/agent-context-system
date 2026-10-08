@@ -1,0 +1,5 @@
+uuid = "2d8a14b8-678d-5a78-9de4-1caa3b909fe2"
+type = "script"
+name = "test-project-settings-sync"
+description = "Tests project-settings-sync.py wiring: wt-seed and post-edit-format prefer the .py, wt-sweep runs the global script, reruns are no-ops."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "843681ed-dc5b-5e82-9126-b9a73d678efe"
+type = "script"
+name = "test-precompact-noise"
+description = "Tests that the compaction snapshot does not record task notifications or the compaction summary as user asks."
+language = "python"

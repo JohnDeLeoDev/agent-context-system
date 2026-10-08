@@ -1,0 +1,5 @@
+uuid = "33a44f18-ef36-5c4f-8222-e336647f7e82"
+type = "script"
+name = "terse-judge"
+description = "Shared output-length judgment for terse-output-check and terse-output-gate; appends every judged turn to terse-telemetry.jsonl. Import it."
+language = "python"

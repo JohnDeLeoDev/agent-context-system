@@ -1,0 +1,5 @@
+uuid = "c3151dc1-4d48-5c9f-b755-eca192529db4"
+type = "script"
+name = "test-stop-with-open-work"
+description = "Tests the block-stop-with-open-work Stop hook with real transcripts: questions asked, background tasks, status questions, loop safety."
+language = "python"

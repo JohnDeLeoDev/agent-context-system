@@ -1,0 +1,5 @@
+uuid = "6707b5f6-4425-5fd1-b6bf-c0d07b0a6e05"
+type = "script"
+name = "test-lspd"
+description = "Tests lspd with mockls.py: shared server, refcounted documents, crash survival, --resync, --restart, --upgrade, --status and the canary."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "3c0e4961-9a7e-503f-a92b-cb6ec967751f"
+type = "script"
+name = "test-lock-consent"
+description = "User-run unlock for acceptance tests locked with test-lock.py: named files or --all; --list and --log report. Agents cannot run it."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "ea44254b-41a4-5582-9ba7-95c26262d844"
+type = "script"
+name = "test-home-materialize-empty-source"
+description = "Tests home-materialize's swap_projection_dir guard: an empty build must not replace a non-empty live generation."
+language = "python"

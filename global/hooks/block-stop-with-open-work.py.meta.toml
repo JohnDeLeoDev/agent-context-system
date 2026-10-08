@@ -1,0 +1,7 @@
+uuid = "3a5dab74-7f33-5012-9ed2-d9b459fb2322"
+type = "hook"
+name = "block-stop-with-open-work"
+description = "Stop: refuse a turn that ends with work the agent says it will do itself, unless it asked user or waits on something outside the session."
+event_type = "Stop"
+language = "python"
+timeout_seconds = 10

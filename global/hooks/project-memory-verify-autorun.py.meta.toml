@@ -1,0 +1,7 @@
+uuid = "61cc9571-3544-5d38-972e-101ba228e536"
+type = "hook"
+name = "project-memory-verify-autorun"
+description = "SessionStart in a registered project: start the detached verify-project-memory run when it is overdue; never blocks."
+event_type = "SessionStart"
+language = "python"
+timeout_seconds = 15

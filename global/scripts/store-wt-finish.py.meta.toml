@@ -1,0 +1,5 @@
+uuid = "1b4c4569-2723-5287-91f7-95b248450fd4"
+type = "script"
+name = "store-wt-finish"
+description = "Land a store worktree branch onto main: clean-tree checks, server gate, then rebase and fast-forward or a merge. Does not push."
+language = "python"

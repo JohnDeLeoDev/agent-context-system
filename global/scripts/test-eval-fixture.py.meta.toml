@@ -1,0 +1,5 @@
+uuid = "f78cb96d-ce28-5c3e-98cf-89b3ddb68970"
+type = "script"
+name = "test-eval-fixture"
+description = "Tests eval-run.py's build_fixture: the fixture looks like a real project clone with a finish script and still starts clean."
+language = "python"

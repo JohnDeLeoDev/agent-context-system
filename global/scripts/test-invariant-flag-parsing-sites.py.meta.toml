@@ -1,0 +1,5 @@
+uuid = "b805fb30-1869-565d-adf8-4d3e73386430"
+type = "script"
+name = "test-invariant-flag-parsing-sites"
+description = "Tests that side-effecting-script-parses-its-flags finds sites by naming convention and each site handles --help and unknown flags."
+language = "python"

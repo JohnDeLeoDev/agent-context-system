@@ -1,0 +1,5 @@
+uuid = "5ec90305-2cf0-5511-9e4d-de81bfb206e2"
+type = "script"
+name = "test-python-per-host"
+description = "Tests one Python per host: agent-python.py's choice, home-settings-sync hook wiring, interpreter-is-rendered, symlinked worktree edits."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "049ef10f-dfd3-57a9-8e9d-5b27a6ff0601"
+type = "script"
+name = "entity-root-pages"
+description = "Builds the Obsidian root page for every project, workspace, machine and the store; prints a manifest to upsert through MCP."
+language = "python"

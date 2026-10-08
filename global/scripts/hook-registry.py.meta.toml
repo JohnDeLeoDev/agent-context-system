@@ -1,0 +1,5 @@
+uuid = "0d3867db-d625-5529-89cf-98d4b53dd8f5"
+type = "script"
+name = "hook-registry"
+description = "Expands hook-dispatch.py entries in settings.json into their guards from hook-dispatch.json. Import expand() or effective_hooks()."
+language = "python"

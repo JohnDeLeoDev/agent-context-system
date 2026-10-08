@@ -1,0 +1,5 @@
+uuid = "8f77290a-4c08-53f9-8c83-d845c3f5fb77"
+type = "script"
+name = "test-verify-fleet-assets"
+description = "Tests that verify-fleet stages a full git checkout of the candidate, with the working-tree server/, and ships it whole to each verifier."
+language = "python"

@@ -1,0 +1,8 @@
+uuid = "ccea8e82-abc2-5712-88b4-e9262af63ada"
+type = "hook"
+name = "block-unreaped-spawn"
+description = "PreToolUse(Bash): refuse a backgrounded process whose only cleanup is a bare kill on the success path, with no trap or timeout."
+event_type = "PreToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 15

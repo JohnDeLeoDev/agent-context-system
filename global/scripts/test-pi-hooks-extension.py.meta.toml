@@ -1,0 +1,5 @@
+uuid = "ba5a68fe-d352-522e-9e87-d216373c6371"
+type = "script"
+name = "test-pi-hooks-extension"
+description = "Tests the generated pi hooks extension: manifest parity with Claude's hook table, events, block contract, fail-closed, idempotence."
+language = "python"

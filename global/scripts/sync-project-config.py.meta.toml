@@ -1,0 +1,5 @@
+uuid = "f6921663-3715-5701-ac26-ba9dca8d32eb"
+type = "script"
+name = "sync-project-config"
+description = "Audit a project's .agents/ tree against its stack template and report drift; --apply re-copies and re-materializes. Run by hand."
+language = "python"

@@ -1,0 +1,169 @@
+schema = 1
+
+[role.relay]
+tools = ["uv", "python3.14"]
+
+[role.relay-client]
+tools = ["agent-context"]
+
+[role.base]
+tools = ["git", "jq", "op", "notify"]
+
+[role.harness]
+tools = ["chezmoi", "basedpyright"]
+
+[role.lint]
+tools = ["ruff"]
+
+[role.lsp-mac]
+tools = ["csharp-ls", "roslyn-language-server", "sourcekit-lsp", "xcode-build-server", "tsgo", "dotnet"]
+
+[role.lsp-rust]
+tools = ["rust", "rust-analyzer"]
+
+[tool.uv]
+check = ["uv", "--version"]
+floor = "0.11.24"
+channel = "manual"
+verify_only = true
+[tool.uv.fix]
+default = "install uv with the platform package manager or from docs.astral.sh/uv"
+mac = "brew install uv"
+windows = "winget install astral-sh.uv"
+
+[tool."python3.14"]
+check = ["python3.14", "--version"]
+floor = "3.14.0"
+channel = "uv-python"
+verify_only = true
+[tool."python3.14".fix]
+default = "uv python install 3.14 --default"
+mac = "brew install python@3.14"
+
+[tool.agent-context]
+check = ["~/.local/bin/agent-context"]
+exists_only = true
+channel = "relay-update"
+verify_only = true
+fix = "run agent-context-relay-install (the relay updater keeps it current)"
+
+[tool.git]
+check = ["git", "--version"]
+floor = "2.39.1"
+channel = "manual"
+fix = "install git with the platform package manager"
+
+[tool.jq]
+check = ["jq", "--version"]
+package = "jq"
+floor = "1.5"
+channel = "manual"
+[tool.jq.fix]
+default = "install jq with the platform package manager"
+mac = "brew install jq"
+ubuntu = "sudo apt install jq"
+debian = "sudo apt install jq"
+windows = "winget install jqlang.jq"
+
+[tool.op]
+check = ["op", "--version"]
+package = "1password-cli"
+floor = "2.35.0"
+channel = "manual"
+fix = "run chezmoi apply (it installs the op gateway and 1password-cli)"
+
+[tool.notify]
+check = ["notify"]
+exists_only = true
+channel = "manual"
+fix = "run chezmoi apply (it ships ~/.local/bin/notify)"
+
+[tool.chezmoi]
+check = ["chezmoi", "--version"]
+package = "chezmoi"
+floor = "2.70.5"
+channel = "manual"
+os = ["mac", "ubuntu", "debian"]
+[tool.chezmoi.fix]
+default = "install chezmoi from get.chezmoi.io"
+mac = "brew install chezmoi"
+ubuntu = "sudo snap install chezmoi --classic"
+
+[tool.basedpyright]
+check = ["basedpyright", "--version"]
+floor = "1.40.1"
+channel = "uv-tool"
+fix = "uv tool install basedpyright"
+
+[tool.csharp-ls]
+check = ["csharp-ls", "--version"]
+floor = "5.8.0"
+channel = "dotnet"
+shim = true
+os = ["mac"]
+fix = "run chezmoi apply (it installs roslyn-language-server with dotnet tool install)"
+
+[tool.roslyn-language-server]
+check = ["roslyn-language-server"]
+exists_only = true
+channel = "dotnet"
+os = ["mac"]
+fix = "dotnet tool install --global roslyn-language-server"
+
+[tool.sourcekit-lsp]
+check = ["sourcekit-lsp"]
+exists_only = true
+channel = "manual"
+os = ["mac"]
+fix = "xcode-select --install"
+
+[tool.rust]
+check = ["rustc", "--version"]
+package = "rust"
+floor = "1.93.1"
+channel = "manual"
+[tool.rust.fix]
+default = "run chezmoi apply (install-packages installs Rust with the platform package manager)"
+mac = "brew install rust"
+ubuntu = "sudo apt install rustc cargo rust-src"
+
+[tool.rust-analyzer]
+check = ["rust-analyzer", "--version"]
+channel = "manual"
+os = ["mac", "ubuntu"]
+[tool.rust-analyzer.fix]
+default = "run chezmoi apply (install-lsp-toolchain installs it)"
+mac = "brew install rust-analyzer"
+ubuntu = "run chezmoi apply (install-lsp-toolchain fetches the upstream release into ~/.local/bin; Ubuntu has no package)"
+
+[tool.xcode-build-server]
+check = ["xcode-build-server"]
+package = "xcode-build-server"
+exists_only = true
+channel = "brew"
+os = ["mac"]
+fix = "brew install xcode-build-server"
+
+[tool.tsgo]
+check = ["tsgo", "--version"]
+node_package = "@typescript/native-preview"
+floor = "7.0.0"
+channel = "node-tools-sync"
+shim = true
+os = ["mac"]
+fix = "python3.14 ~/.agent-context/global/scripts/node-tools-sync.py"
+
+[tool.dotnet]
+check = ["dotnet", "--version"]
+floor = "10.0.0"
+channel = "brew"
+os = ["mac"]
+fix = "brew install dotnet"
+
+[tool.ruff]
+check_any = [["ruff", "--version"], ["uvx", "--offline", "ruff", "--version"]]
+floor = "0.16.8"
+timeout = 30
+channel = "uv-tool"
+fix = "uv tool install ruff (needs uv)"
+

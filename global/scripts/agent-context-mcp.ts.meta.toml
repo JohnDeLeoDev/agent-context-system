@@ -1,0 +1,5 @@
+uuid = "5c934ea2-def4-51db-b250-e43ce57ca04d"
+type = "script"
+name = "agent-context-mcp"
+description = "pi extension that exposes the agent-context MCP server's tools as native pi tools. Loaded by pi at startup."
+language = "typescript"

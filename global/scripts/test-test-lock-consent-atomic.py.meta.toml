@@ -1,0 +1,5 @@
+uuid = "0d28b190-c648-55fa-a686-d3f3bf87b591"
+type = "script"
+name = "test-test-lock-consent-atomic"
+description = "Regression test: an audit-log write failure leaves an acceptance test locked."
+language = "python"

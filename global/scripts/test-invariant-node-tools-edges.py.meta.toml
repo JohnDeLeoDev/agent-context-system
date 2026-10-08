@@ -1,0 +1,5 @@
+uuid = "f4f989a4-0797-5e07-aba4-5d37b197d3be"
+type = "script"
+name = "test-invariant-node-tools-edges"
+description = "Edge tests for node-tools-pinned: pins hidden in overrides, resolutions, peerDependencies or pnpm-workspace.yaml, and pnpm bootstrap shapes."
+language = "python"

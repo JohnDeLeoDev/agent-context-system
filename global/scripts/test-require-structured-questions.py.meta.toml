@@ -1,0 +1,5 @@
+uuid = "b678ebc1-9ed2-5522-8383-95b1172951b3"
+type = "script"
+name = "test-require-structured-questions"
+description = "Tests the require-structured-questions Stop hook: decision-shaped closings that block and the allow cases. Run after changing its phrases."
+language = "python"

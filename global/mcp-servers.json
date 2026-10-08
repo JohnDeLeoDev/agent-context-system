@@ -1,0 +1,18 @@
+{
+  "servers": {
+    "agent-context": {
+      "transport": "stdio",
+      "command": "{RELAY}",
+      "args": [],
+      "harnesses": [
+        "claude",
+        "claude-desktop",
+        "opencode",
+        "copilot",
+        "antigravity",
+        "xcode",
+        "codex"
+      ]
+    }
+  }
+}

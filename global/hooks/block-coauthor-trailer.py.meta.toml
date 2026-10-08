@@ -1,0 +1,8 @@
+uuid = "f540bc55-309a-5e0e-9dfe-59b05cf52b82"
+type = "hook"
+name = "block-coauthor-trailer"
+description = "PreToolUse(Bash): refuse a git commit whose message carries a Co-Authored-By or Claude-Session trailer, in any repository."
+event_type = "PreToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 10

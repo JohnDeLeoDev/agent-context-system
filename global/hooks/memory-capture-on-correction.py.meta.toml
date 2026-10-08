@@ -1,0 +1,7 @@
+uuid = "b7eda1c9-ab54-567c-81f4-b0a2a64bb399"
+type = "hook"
+name = "memory-capture-on-correction"
+description = "Stop: when the last user message reads as a correction and the turn wrote no memory, block once asking for upsert_memory."
+event_type = "Stop"
+language = "python"
+timeout_seconds = 10

@@ -1,0 +1,5 @@
+uuid = "358aaba4-18c2-50e9-9499-e669c56db544"
+type = "script"
+name = "test-hook-dispatch"
+description = "Tests the hook dispatcher core: guard selection, in-process isolation, merge rules, fail-open, registration, and readers of the wiring."
+language = "python"

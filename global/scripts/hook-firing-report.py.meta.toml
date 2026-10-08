@@ -1,0 +1,5 @@
+uuid = "91eb3772-7819-55f8-86ac-fb0c7fffe94d"
+type = "script"
+name = "hook-firing-report"
+description = "Reports which guards have refused something and which never have, mined from session transcripts. --days N sets the window."
+language = "python"

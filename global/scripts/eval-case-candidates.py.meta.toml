@@ -1,0 +1,5 @@
+uuid = "860adb94-3e4f-5d4b-89fb-e89256e50438"
+type = "script"
+name = "eval-case-candidates"
+description = "Ranks behaviors by how often a guard refused them and lists those no eval case covers. Run when choosing new eval cases."
+language = "python"

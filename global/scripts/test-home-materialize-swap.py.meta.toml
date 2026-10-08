@@ -1,0 +1,5 @@
+uuid = "91dbadfa-5acd-56bc-9aa5-3a9c0584c649"
+type = "script"
+name = "test-home-materialize-swap"
+description = "Tests home-materialize's swap_projection_dir cleanup: a later tag's cleanup must not delete an earlier tag's live generation directory."
+language = "python"

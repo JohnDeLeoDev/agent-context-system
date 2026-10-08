@@ -1,0 +1,8 @@
+uuid = "dd5dc4e0-5287-56bb-8336-639a62430ddc"
+type = "hook"
+name = "require-investigation-before-edit"
+description = "PreToolUse(file writes): deny the first edit to a source file unless an earlier search in the transcript names it; retry allowed."
+event_type = "PreToolUse"
+matcher = "Edit|MultiEdit"
+language = "python"
+timeout_seconds = 30

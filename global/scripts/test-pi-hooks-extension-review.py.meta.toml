@@ -1,0 +1,5 @@
+uuid = "6bbd4337-5cba-589c-8c07-81292875f50d"
+type = "script"
+name = "test-pi-hooks-extension-review"
+description = "Regression tests for the pi hooks extension: large output, JSON after text, exit-2 reason, ask, cwd, stray command files, CRLF, reload."
+language = "python"

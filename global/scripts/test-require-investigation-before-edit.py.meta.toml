@@ -1,0 +1,5 @@
+uuid = "491325b1-b5ae-5a6f-b617-2647975deeec"
+type = "script"
+name = "test-require-investigation-before-edit"
+description = "Cases for the require-investigation-before-edit gate: shared payload cases plus stateful sequences."
+language = "python"

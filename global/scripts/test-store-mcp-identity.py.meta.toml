@@ -1,0 +1,5 @@
+uuid = "dab3e6dc-79c6-509d-8e7c-826fc5b69131"
+type = "script"
+name = "test-store-mcp-identity"
+description = "Checks that store_mcp sends this machine's identity headers to a daemon on another machine (policy)."
+language = "python"

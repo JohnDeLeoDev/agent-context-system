@@ -1,0 +1,5 @@
+uuid = "b89fe167-dfee-5aed-8f07-eeeb0d1ab012"
+type = "script"
+name = "verify-fleet"
+description = "Run the server suite on other fleet machines against the candidate tree. Manual check: nothing calls it since policy."
+language = "python"

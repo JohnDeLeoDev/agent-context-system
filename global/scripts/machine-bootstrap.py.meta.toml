@@ -1,0 +1,5 @@
+uuid = "9afa2ef7-e9dd-5c93-ace3-cec2184b2186"
+type = "script"
+name = "machine-bootstrap"
+description = "Idempotent fresh-machine bootstrap behind setup.sh: installs uv, pytest and harness links, then runs home-materialize.py. Has --dry-run."
+language = "python"

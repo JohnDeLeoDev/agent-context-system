@@ -1,0 +1,7 @@
+uuid = "0457c944-66ba-5dcc-9a82-55d7f6bac22a"
+type = "hook"
+name = "require-structured-questions"
+description = "Stop: refuse a turn that asks user to decide something in prose when AskUserQuestion was not called. Claude Code only."
+event_type = "Stop"
+language = "python"
+timeout_seconds = 10

@@ -1,0 +1,5 @@
+uuid = "c8c40d55-af50-5502-aec8-0a41a5ee89b2"
+type = "script"
+name = "home-materialize"
+description = "Projects the store's global/ content into ~/.claude with rsync, then runs the settings sync and harness projections. Run at SessionStart."
+language = "python"

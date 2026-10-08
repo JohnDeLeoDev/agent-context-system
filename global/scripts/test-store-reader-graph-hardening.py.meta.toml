@@ -1,0 +1,5 @@
+uuid = "ffabd02d-0d1e-53df-82db-0ef7d49f924b"
+type = "script"
+name = "test-store-reader-graph-hardening"
+description = "Hardening tests for store-reader-graph: rooted paths, encodings, import drivers."
+language = "python"

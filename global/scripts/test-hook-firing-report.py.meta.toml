@@ -1,0 +1,5 @@
+uuid = "93b750f8-22d3-596a-88aa-95b99bcd7cc8"
+type = "script"
+name = "test-hook-firing-report"
+description = "Tests that hook-firing-report counts only real refusals, once each, and ignores wiki-links to a hook and reads of a hook's source."
+language = "python"

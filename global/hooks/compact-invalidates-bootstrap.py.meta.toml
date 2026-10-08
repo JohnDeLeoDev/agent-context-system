@@ -1,0 +1,8 @@
+uuid = "2a626218-d2ae-567a-a69b-6a98b4888e2e"
+type = "hook"
+name = "compact-invalidates-bootstrap"
+description = "SessionStart(compact): expire the store-bootstrap stamp so a compacted session must call get_session_context again."
+event_type = "SessionStart"
+matcher = "compact"
+language = "python"
+timeout_seconds = 10

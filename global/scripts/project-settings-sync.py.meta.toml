@@ -1,0 +1,5 @@
+uuid = "ece8712f-a989-5776-9916-8893cd4c4035"
+type = "script"
+name = "project-settings-sync"
+description = "Assert the store-owned hook wiring in a project's .agents/claude/settings.json from its materialized scripts. Run after materialize."
+language = "python"

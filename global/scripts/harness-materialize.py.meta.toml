@@ -1,0 +1,5 @@
+uuid = "b95c21b2-9bd2-59b6-b16f-e1097cdd8361"
+type = "script"
+name = "harness-materialize"
+description = "Projects agent-context config into every non-Claude harness; Codex hooks come from Claude's hook graph. Run by home-materialize.py."
+language = "python"

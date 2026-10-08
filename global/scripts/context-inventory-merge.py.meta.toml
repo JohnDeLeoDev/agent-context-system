@@ -1,0 +1,5 @@
+uuid = "84e27772-da1d-557e-9688-9cdbd5968e20"
+type = "script"
+name = "context-inventory-merge"
+description = "Context inventory step 3: merges reviewer results/<batch>.tsv into inventory.tsv and prints coverage and the verdict tally."
+language = "python"

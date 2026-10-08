@@ -1,0 +1,5 @@
+uuid = "c261dcc1-a8dd-5cbe-9712-039519fa7a54"
+type = "script"
+name = "store-orphan-probe"
+description = "Check every file in the store's entity buckets is registered (sidecar or frontmatter) and record the verdict. Report-only."
+language = "python"

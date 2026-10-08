@@ -1,0 +1,8 @@
+uuid = "45a4f99e-f08c-5fe7-bc03-4db50eb6743a"
+type = "hook"
+name = "peer-message-notice"
+description = "PostToolUse and UserPromptSubmit: tell a session with no wake route that peer messages wait, from the flag its bridge left. Never blocks."
+event_type = "PostToolUse"
+matcher = "*"
+language = "python"
+timeout_seconds = 10

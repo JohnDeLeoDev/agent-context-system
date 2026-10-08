@@ -1,0 +1,5 @@
+uuid = "07f3a0c9-beb5-5f72-8ec5-8afa9eb2ee88"
+type = "script"
+name = "test-token-usage-collect-relay"
+description = "Tests token-usage-collect.py's upload: each machine uploads its rollup through relay_report, retries on failure, skips when unchanged."
+language = "python"

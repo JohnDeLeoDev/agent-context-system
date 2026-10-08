@@ -1,0 +1,5 @@
+uuid = "2120191e-d75b-5562-a57c-0b1fae339053"
+type = "script"
+name = "agent-event-notify"
+description = "Pushes the two events that mean something \u2014 a turn finishing and a harness asking for a human \u2014 from any of the four harnesses' hooks."
+language = "python"

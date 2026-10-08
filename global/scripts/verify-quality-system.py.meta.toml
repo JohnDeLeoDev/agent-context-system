@@ -1,0 +1,5 @@
+uuid = "cdfc4ca3-4098-592d-aee6-35fbf4d9ca6c"
+type = "script"
+name = "verify-quality-system"
+description = "Run every free check on the agent quality system; exits non-zero on any failure. Run after changing any hook, script or instruction."
+language = "python"

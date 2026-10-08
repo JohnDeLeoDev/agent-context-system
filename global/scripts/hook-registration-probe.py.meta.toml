@@ -1,0 +1,5 @@
+uuid = "b68ddf4a-cea9-582a-b75e-111700729748"
+type = "script"
+name = "hook-registration-probe"
+description = "Asserts every store hook is registered in settings.json and that settings names no missing hook. Run after changing hook wiring."
+language = "python"

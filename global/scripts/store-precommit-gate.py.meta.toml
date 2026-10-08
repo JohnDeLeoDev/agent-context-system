@@ -1,0 +1,5 @@
+uuid = "fa8fe141-3f7b-5c71-a1f7-f58f4e5e7325"
+type = "script"
+name = "store-precommit-gate"
+description = "The store's pre-commit hook: checks staged Python syntax and invariants, and runs the server gate when a commit touches server/."
+language = "python"

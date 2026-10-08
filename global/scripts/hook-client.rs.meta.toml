@@ -1,0 +1,5 @@
+uuid = "3e63c7c4-c0d7-5ae1-ae23-7eab95d9fe51"
+type = "script"
+name = "hook-client"
+description = "Rust launcher: hands a hook event to hook-server.py over a Unix socket, falling back to hook-dispatch.py. Built by hook-client-build.py."
+language = "rust"

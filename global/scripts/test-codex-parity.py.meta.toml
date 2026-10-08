@@ -1,0 +1,5 @@
+uuid = "ba21b9a0-3042-51d4-a229-c75f564c1f76"
+type = "script"
+name = "test-codex-parity"
+description = "Tests the Codex projection: materialize_codex_content places and retires skills, commands and agents; materialize_codex_mcp merges servers."
+language = "python"

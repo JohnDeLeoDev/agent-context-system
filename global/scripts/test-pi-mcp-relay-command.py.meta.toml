@@ -1,0 +1,5 @@
+uuid = "5dab7766-3e07-5f01-b8c6-e728c05f08ad"
+type = "script"
+name = "test-pi-mcp-relay-command"
+description = "Tests the pi agent-context bridge's server command: the standalone relay when installed, the uv clone command otherwise, chosen per spawn."
+language = "python"

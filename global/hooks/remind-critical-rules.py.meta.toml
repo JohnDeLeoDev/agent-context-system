@@ -1,0 +1,7 @@
+uuid = "4f0a4ee9-a72b-5089-a8aa-9df62fca40b8"
+type = "hook"
+name = "remind-critical-rules"
+description = "SessionStart: remind that the worktree, deploy and git-write standing orders apply and where to read them."
+event_type = "SessionStart"
+language = "python"
+timeout_seconds = 30

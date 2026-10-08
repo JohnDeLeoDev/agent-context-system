@@ -1,0 +1,5 @@
+uuid = "06f17606-25e7-5256-8e34-05faba9b64ed"
+type = "script"
+name = "test-consent-script-fixes"
+description = "Tests that git-write-consent.py, write-outside-home-consent.py and test-lock-consent.py print clean --help usage and exit 0."
+language = "python"

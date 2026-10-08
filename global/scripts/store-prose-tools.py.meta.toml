@@ -1,0 +1,5 @@
+uuid = "c78a5a42-9b32-5964-af2d-fed53717acb4"
+type = "script"
+name = "store-prose-tools"
+description = "Derive from the server's signatures which MCP tools and fields carry written text into the store. Guards over store writes read it."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "4a54b637-2f4c-5e56-89eb-4b200fe4c4c2"
+type = "script"
+name = "test-deps-check-review"
+description = "Tests deps-check.py check_any: names with line breaks rejected, a failed expect text decides, and at most four commands run."
+language = "python"

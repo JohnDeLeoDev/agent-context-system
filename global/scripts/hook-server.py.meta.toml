@@ -1,0 +1,5 @@
+uuid = "4f75cda7-e5c4-566c-ac9c-1fdba6d2b208"
+type = "script"
+name = "hook-server"
+description = "Warm per-host hook dispatcher: keeps hook-dispatch.py loaded and forks a child per hook-client call. Starts on demand, exits when idle."
+language = "python"

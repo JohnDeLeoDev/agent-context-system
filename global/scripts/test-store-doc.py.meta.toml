@@ -1,0 +1,5 @@
+uuid = "c80b6c3c-6d15-5cd2-a4c6-d7fc5dec764b"
+type = "script"
+name = "test-store-doc"
+description = "Tests store-doc.py: prints one doc fetched with get_doc, one error line and exit 1 on failure, exit 2 on usage, UTF-8, broken pipe."
+language = "python"

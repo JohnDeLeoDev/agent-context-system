@@ -1,0 +1,8 @@
+uuid = "44b288eb-2def-5e9d-a641-43b516fa607b"
+type = "hook"
+name = "require-worktree-edit-bash"
+description = "PreToolUse(Bash): pass each shell write target (redirect, sed -i, tee, cp, mv) through require-worktree-edit and refuse what it refuses."
+event_type = "PreToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 30

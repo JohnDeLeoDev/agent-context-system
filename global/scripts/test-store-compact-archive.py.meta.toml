@@ -1,0 +1,5 @@
+uuid = "a794d7cd-95bb-5baf-a175-2cc1d5ae221b"
+type = "script"
+name = "test-store-compact-archive"
+description = "Tests store-compact.py's archive sweep: spent observations and handoffs move to their archives; live pointers keep a handoff in place."
+language = "python"

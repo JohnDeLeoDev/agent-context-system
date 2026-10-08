@@ -1,0 +1,5 @@
+uuid = "c8760742-0e90-5719-91b9-83c9d4254714"
+type = "script"
+name = "context_budget"
+description = "Prints the always-loaded context cost in tokens and exits 1 over budget. --check for the invariant, --json for machines."
+language = "python"

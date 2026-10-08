@@ -1,0 +1,5 @@
+uuid = "037887b8-1825-5833-b44e-6ad1aee19f9a"
+type = "script"
+name = "test-project-materialize-retire"
+description = "Tests project-materialize.py retiring leftover projections: unchanged dropped files are deleted, edited ones kept, --check deletes nothing."
+language = "python"

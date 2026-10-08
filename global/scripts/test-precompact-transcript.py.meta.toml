@@ -1,0 +1,5 @@
+uuid = "b183a282-dae4-5dbb-b835-3a203ea73834"
+type = "script"
+name = "test-precompact-transcript"
+description = "Tests the transcript-derived compaction snapshot: precompact-capture records edited files and user asks; delivery framing, cap, off switch."
+language = "python"

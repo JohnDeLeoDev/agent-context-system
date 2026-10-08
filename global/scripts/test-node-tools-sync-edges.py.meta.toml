@@ -1,0 +1,5 @@
+uuid = "629013e6-0d9b-5757-87aa-0742fb627dd9"
+type = "script"
+name = "test-node-tools-sync-edges"
+description = "Edge tests for node-tools-sync.py: a refused bin link names what it is, a link to another root or a file the script never made."
+language = "python"

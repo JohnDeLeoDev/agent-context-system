@@ -1,0 +1,18 @@
+{
+  "enabledPlugins": {
+    "kotlin-lsp@claude-plugins-official": false
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'python3 \"$HOME/.agent-context/global/scripts/project-materialize.py\" \"$CLAUDE_PROJECT_DIR\" || true'",
+            "timeout": 15
+          }
+        ]
+      }
+    ]
+  }
+}

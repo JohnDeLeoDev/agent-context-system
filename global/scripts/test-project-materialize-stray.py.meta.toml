@@ -1,0 +1,5 @@
+uuid = "10da3952-3c58-5a65-b33f-aa804bcf18bd"
+type = "script"
+name = "test-project-materialize-stray"
+description = "Tests project-materialize.py's stray harness-directory check: ignored trees and nested repositories are not strays."
+language = "python"

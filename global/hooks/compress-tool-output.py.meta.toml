@@ -1,0 +1,8 @@
+uuid = "048372f0-36f6-5c23-a6b6-3279f57e96d5"
+type = "hook"
+name = "compress-tool-output"
+description = "PostToolUse(*): replace a large, repetitive tool result with a shorter one; the original is saved to a file. Never blocks."
+event_type = "PostToolUse"
+matcher = "*"
+language = "python"
+timeout_seconds = 10

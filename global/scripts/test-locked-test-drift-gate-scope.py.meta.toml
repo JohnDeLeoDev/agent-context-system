@@ -1,0 +1,5 @@
+uuid = "d29080db-8dc8-5274-94d1-d3b105d7d1bf"
+type = "script"
+name = "test-locked-test-drift-gate-scope"
+description = "Tests locked-test-drift-gate's scope: only drift this session made stops its turn; another session's older drift does not."
+language = "python"

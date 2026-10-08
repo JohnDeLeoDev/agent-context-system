@@ -1,0 +1,5 @@
+uuid = "f13c8f01-a414-5586-8ce2-f194f998ada7"
+type = "script"
+name = "test-invariant-retired-scripts"
+description = "Tests invariant no-retired-script-reference: no code, config or sidecar may name the .sh of a ported or retired store shell script."
+language = "python"

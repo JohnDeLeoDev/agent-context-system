@@ -1,0 +1,8 @@
+uuid = "bde961e7-8478-51f3-bdc1-d9213dd44f4a"
+type = "hook"
+name = "require-worktree-edit"
+description = "PreToolUse(Write|Edit|MultiEdit|NotebookEdit): refuse project source edits in the main checkout; redirect to the session worktree when able."
+event_type = "PreToolUse"
+matcher = "Write|Edit|MultiEdit|NotebookEdit"
+language = "python"
+timeout_seconds = 30

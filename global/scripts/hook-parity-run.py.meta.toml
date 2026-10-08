@@ -1,0 +1,5 @@
+uuid = "220e48b4-31cb-53d1-ab13-60245b723329"
+type = "script"
+name = "hook-parity-run"
+description = "Compares one hook event wired directly and through hook-dispatch.py in a fixture HOME. Run before moving an event onto the dispatcher."
+language = "python"

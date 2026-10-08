@@ -1,0 +1,5 @@
+uuid = "9f916aa1-0977-540b-88a1-e97910ff8ed0"
+type = "script"
+name = "project-materialize"
+description = "Rebuild a working repo's .agents/ from the store, then its .claude/ projection via agents-materialize. Safe as a SessionStart hook."
+language = "python"

@@ -1,0 +1,7 @@
+uuid = "e7795f30-0970-55f4-ad5a-869682f3fe4c"
+type = "hook"
+name = "agent-turn-finished-notify"
+description = "Stop: push one notification saying the turn finished, naming host and tmux session so a tap opens that conversation. Detached, fail-silent."
+event_type = "Stop"
+language = "python"
+timeout_seconds = 10

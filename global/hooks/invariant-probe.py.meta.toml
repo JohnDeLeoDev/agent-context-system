@@ -1,0 +1,7 @@
+uuid = "8424ba03-a5b6-59a5-b3b9-0db3be12f73c"
+type = "hook"
+name = "invariant-probe"
+description = "SessionStart: start invariant-check.py --health detached so broken invariants show in the next session's degraded block. Silent."
+event_type = "SessionStart"
+language = "python"
+timeout_seconds = 10

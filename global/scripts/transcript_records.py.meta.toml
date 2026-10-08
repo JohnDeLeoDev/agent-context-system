@@ -1,0 +1,5 @@
+uuid = "6cf47dd9-9e72-57fa-948b-607060e76824"
+type = "script"
+name = "transcript_records"
+description = "Shared, per-process cached parse of a Claude Code transcript for the Stop-chain hooks. Import it; do not re-parse the transcript."
+language = "python"

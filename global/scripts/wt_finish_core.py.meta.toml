@@ -1,0 +1,5 @@
+uuid = "f1c9d301-4b72-583e-89e6-a527b640a20f"
+type = "script"
+name = "wt_finish_core"
+description = "Shared landing logic behind every project's wt-finish: guards, gate runner, landing lock, rebase or merge, push, cleanup. Import it."
+language = "python"

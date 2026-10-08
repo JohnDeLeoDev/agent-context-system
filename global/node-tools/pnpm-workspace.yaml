@@ -1,0 +1,14 @@
+# pnpm settings for the store's Node tools (global/node-tools, Consolidation Phase 6a).
+
+# geckodriver (a firefox-devtools-mcp dependency) has a postinstall that downloads the
+# driver binary. Denied: the MCP server starts without it, and geckodriver fetches the
+# driver on first browser use.
+allowBuilds:
+  geckodriver: false
+
+# copilot-api routes Claude 5 system turns as assistant turns, which GitHub's endpoint
+# refuses (memory copilot-api-is-a-patched-build). The key carries no version, so the
+# patch follows every release, and a release that moves the patched line fails the sync
+# loudly instead of installing an unpatched proxy.
+patchedDependencies:
+  copilot-api: patches/copilot-api.patch

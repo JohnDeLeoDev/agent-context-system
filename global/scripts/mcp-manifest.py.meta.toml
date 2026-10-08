@@ -1,0 +1,5 @@
+uuid = "005ab380-6607-5b35-bd99-ad1723dc88a0"
+type = "script"
+name = "mcp-manifest"
+description = "Read or update canonical MCP server entries through run_store_task; validates transport, scope and credentials."
+language = "python"

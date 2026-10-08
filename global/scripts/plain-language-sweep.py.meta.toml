@@ -1,0 +1,5 @@
+uuid = "71cf92a9-8d73-5c8a-9ed7-ecf9b1dfad94"
+type = "script"
+name = "plain-language-sweep"
+description = "Report British-spelling and jargon hits across the store as a per-entity worklist. Read-only; run before a plain-language cleanup."
+language = "python"

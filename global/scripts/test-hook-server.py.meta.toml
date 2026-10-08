@@ -1,0 +1,5 @@
+uuid = "9e7ca202-76b2-59c1-afb3-608d499321a1"
+type = "script"
+name = "test-hook-server"
+description = "Tests the warm hook path: client build and staleness, served calls, parity with the cold dispatcher, reload, fallback, idle exit, wiring."
+language = "python"

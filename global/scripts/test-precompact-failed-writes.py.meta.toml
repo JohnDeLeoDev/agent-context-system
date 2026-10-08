@@ -1,0 +1,5 @@
+uuid = "20e74566-ef7b-53a7-92f4-2189777d7fa5"
+type = "script"
+name = "test-precompact-failed-writes"
+description = "A write whose tool_result is an error is not listed in the compaction snapshot (store entities or file edits)."
+language = "python"

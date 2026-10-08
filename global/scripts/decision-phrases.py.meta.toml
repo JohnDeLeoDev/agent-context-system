@@ -1,0 +1,5 @@
+uuid = "a7cc3696-cfc6-5647-a7fd-60952be3593f"
+type = "script"
+name = "decision-phrases"
+description = "Shared list of decision-shaped phrases and the prose-only filter used by require-structured-questions and subagent-return-gate. Edit here."
+language = "python"

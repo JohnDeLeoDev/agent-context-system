@@ -1,0 +1,7 @@
+uuid = "8e9747bd-0742-57cb-9c89-bd6fc4ff90f0"
+type = "hook"
+name = "context-audit-autorun"
+description = "SessionStart: start the detached `/context-audit auto` run when it is overdue across the fleet; returns at once."
+event_type = "SessionStart"
+language = "python"
+timeout_seconds = 15

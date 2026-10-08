@@ -1,0 +1,5 @@
+uuid = "45a83e23-9464-5cd4-aab2-79f0673dd73d"
+type = "script"
+name = "test-block-agent-file-force-add"
+description = "Tests the block-agent-file-force-add hook: force-add spellings it must refuse and commands it must pass, including the store exemption."
+language = "python"

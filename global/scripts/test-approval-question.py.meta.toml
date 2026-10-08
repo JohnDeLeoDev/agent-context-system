@@ -1,0 +1,5 @@
+uuid = "6a744e7e-b753-5590-a4b2-2ee7f9af754e"
+type = "script"
+name = "test-approval-question"
+description = "Tests approval-question: an AskUserQuestion answer grants git writes, outside-home writes and test unlocks; forged questions grant nothing."
+language = "python"

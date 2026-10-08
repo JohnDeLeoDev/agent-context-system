@@ -1,0 +1,5 @@
+uuid = "b8160937-135d-5aea-98cf-c3af4b8c72ba"
+type = "script"
+name = "agents-materialize"
+description = "Rebuilds a project's .claude/ projection from .agents/ with hardlinks and rsync. Idempotent; runs as a SessionStart hook or by hand."
+language = "python"

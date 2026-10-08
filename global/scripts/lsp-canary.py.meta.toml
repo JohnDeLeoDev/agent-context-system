@@ -1,0 +1,5 @@
+uuid = "a0d8b5a6-ee03-56ee-8f0d-ab99352504aa"
+type = "script"
+name = "lsp-canary"
+description = "Background probe that asks each project's LSP for a known symbol and checks index breadth; writes a verdict naming `lspd.py --resync`."
+language = "python"

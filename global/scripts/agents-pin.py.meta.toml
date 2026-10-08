@@ -1,0 +1,5 @@
+uuid = "01612162-09d4-50f6-9d62-58974bd83446"
+type = "script"
+name = "agents-pin"
+description = "Projects the store's agent definitions into opencode or pi, translating tool names and pinning model ids. Run after definitions change."
+language = "python"

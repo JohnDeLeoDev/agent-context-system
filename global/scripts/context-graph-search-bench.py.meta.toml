@@ -1,0 +1,5 @@
+uuid = "7be8c944-7e92-5c03-9018-da09161279c1"
+type = "script"
+name = "context-graph-search-bench"
+description = "Benchmarks store search on label pairs from past sessions: collect, score, tune and compare subcommands. Run when changing search ranking."
+language = "python"

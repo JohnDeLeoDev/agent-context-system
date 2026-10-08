@@ -1,0 +1,8 @@
+uuid = "ef31f281-5a43-5308-bebf-0991bf1e63e0"
+type = "hook"
+name = "audit-observation-guard"
+description = "PreToolUse(audit observation writes): refuse tool markup in the text and, on add, empty evidence, bad scope or no named entity."
+event_type = "PreToolUse"
+matcher = "mcp__agent-context__add_audit_observation|mcp__agent-context__update_audit_observation|mcp__agent-context__resolve_audit_observation"
+language = "python"
+timeout_seconds = 15

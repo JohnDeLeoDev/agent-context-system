@@ -1,0 +1,5 @@
+uuid = "1382de6c-dc91-5d3f-a62d-2b837e1b03dd"
+type = "script"
+name = "test-codex-test-unlock"
+description = "Regression tests for Codex structured test-unlock approval, denial, replay and wiring."
+language = "python"

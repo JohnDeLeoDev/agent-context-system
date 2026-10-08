@@ -1,0 +1,5 @@
+uuid = "5a3cb87c-d9b5-579b-8b0f-4a7d4565bd8a"
+type = "script"
+name = "agent-python"
+description = "Prints the Python interpreter this host's hooks run under, honoring AGENT_CONTEXT_PYTHON. Import it for is_interpreter(word)."
+language = "python"

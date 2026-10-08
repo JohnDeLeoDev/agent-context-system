@@ -1,0 +1,5 @@
+uuid = "5fd446c2-31c4-5386-8d3f-c461f04c13c0"
+type = "script"
+name = "scaffold-regression"
+description = "Compare tokens, output, tool calls and tool error rate per request across two windows. Run after an instruction or hook change."
+language = "python"

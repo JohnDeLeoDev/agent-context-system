@@ -1,0 +1,5 @@
+uuid = "01497797-4639-50c9-afc0-cac45fe362ca"
+type = "script"
+name = "test-global-script-fixes"
+description = "Tests bug fixes in ralph-guard.py, wt-sweep.py, project-materialize.py, verify-fleet.py, statusline-command.py and release-server.py."
+language = "python"

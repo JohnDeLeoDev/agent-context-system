@@ -1,0 +1,8 @@
+uuid = "81f6da6c-a3ca-5ced-ad11-ad32ff58fe8d"
+type = "hook"
+name = "block-deploy"
+description = "PreToolUse(Bash): refuse deploy, publish and reset scripts unless the user asked this turn or a deploy skill or command drives the turn."
+event_type = "PreToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 30

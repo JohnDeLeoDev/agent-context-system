@@ -1,0 +1,8 @@
+uuid = "26d42b98-07fc-5986-b3e6-837373f8268e"
+type = "hook"
+name = "warn-long-foreground-command"
+description = "PreToolUse+PostToolUse(Bash): warn when a foreground Bash call held the turn over 30 seconds. Never blocks."
+event_type = "PreToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 10

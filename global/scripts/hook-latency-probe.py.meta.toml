@@ -1,0 +1,5 @@
+uuid = "dc2b3aa0-1b7e-5d25-a8aa-bf9a44d3c741"
+type = "script"
+name = "hook-latency-probe"
+description = "Times every PreToolUse hook in ~/.claude/settings.json on sample Bash, Edit and Read calls; reports medians and the chain total."
+language = "python"

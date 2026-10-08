@@ -1,0 +1,5 @@
+uuid = "e449e3ec-7148-5c66-8357-10a1ae078045"
+type = "script"
+name = "test-eval-scoring"
+description = "Tests eval-run.py scoring: scope checks accept test files listed in also_allowed, and the judge prompt shows the Bash commands that ran."
+language = "python"

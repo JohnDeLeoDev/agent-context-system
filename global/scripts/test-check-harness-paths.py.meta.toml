@@ -1,0 +1,5 @@
+uuid = "a5884968-335a-5d05-a8b3-b5857f53009d"
+type = "script"
+name = "test-check-harness-paths"
+description = "Battery for check-harness-paths.py: every construction shape is flagged, clean files are not, and the six producers are clean."
+language = "python"

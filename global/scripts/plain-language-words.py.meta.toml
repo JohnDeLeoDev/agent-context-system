@@ -1,0 +1,5 @@
+uuid = "828566b9-4c42-5edb-b83a-0f26ebab4a32"
+type = "script"
+name = "plain-language-words"
+description = "Canonical plain-language word lists, importable or emitted as shell variables with --sh. Edit here to change what the checks block."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "3f5e881e-6f40-5f1e-a024-bf3d617fbba3"
+type = "script"
+name = "verification-claim-judge"
+description = "Shared judgment for verification-claim-check and verification-claim-gate: did the turn claim a verification it never ran? Import it."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "29d2999b-89b2-55b8-9ea3-6387d29f78e2"
+type = "script"
+name = "test-block-write-outside-home"
+description = "Tests block-write-outside-home: Write/Edit paths, shell redirects and writers, interpreter one-liners, reads that pass, approval grants."
+language = "python"

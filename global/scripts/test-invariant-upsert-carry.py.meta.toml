@@ -1,0 +1,5 @@
+uuid = "7fa9cb65-9b06-5765-b7e9-e563a5b78be9"
+type = "script"
+name = "test-invariant-upsert-carry"
+description = "Tests invariant upsert-carries-existing-keys: server functions that write frontmatter or a sidecar must carry the stored keys."
+language = "python"

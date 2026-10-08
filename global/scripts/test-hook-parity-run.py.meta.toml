@@ -1,0 +1,5 @@
+uuid = "e95565e4-1127-5c94-95f0-fd2a13d76957"
+type = "script"
+name = "test-hook-parity-run"
+description = "Tests hook-parity-run.py: fixture HOME with both wirings, direct versus dispatcher runs, output and effect comparison, exit codes 0/1/2."
+language = "python"

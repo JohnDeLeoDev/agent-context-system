@@ -1,0 +1,5 @@
+uuid = "feaa6895-04bd-5e34-82b0-4f9bdebde96c"
+type = "script"
+name = "frontmatter_strip"
+description = "Replaces the store frontmatter block with each harness's native frontmatter for projected entities. Imported by the materialize scripts."
+language = "python"

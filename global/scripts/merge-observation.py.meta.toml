@@ -1,0 +1,5 @@
+uuid = "31fda096-e32e-5bfd-a18e-f1d24bd0a055"
+type = "script"
+name = "merge-observation"
+description = "Git merge driver for global/audit-observations/NNNN.json: merges field by field and refuses fields both sides changed differently."
+language = "python"

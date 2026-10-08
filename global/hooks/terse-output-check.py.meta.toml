@@ -1,0 +1,7 @@
+uuid = "147a0e5f-9564-5c1d-9eca-b53ac22275f8"
+type = "hook"
+name = "terse-output-check"
+description = "UserPromptSubmit: warn when the previous message ran long without a question, decision, failure or finding to justify it. Never blocks."
+event_type = "UserPromptSubmit"
+language = "py"
+timeout_seconds = 10

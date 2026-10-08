@@ -1,0 +1,5 @@
+uuid = "dbe6b48f-8300-563b-a0e9-2eab28bca417"
+type = "script"
+name = "git-write-consent"
+description = "Mints a single-use, timed token for one git write that guard-git-write.py would block. Run by the approval-question hook, never by agents."
+language = "python"

@@ -1,0 +1,7 @@
+uuid = "cc6c97e5-975e-5b53-afba-ce2d07fcb1fd"
+type = "hook"
+name = "codex-test-unlock"
+description = "Codex UserPromptSubmit: grant a test unlock only on an exact pending approval reply; refuse malformed, forged, duplicate or stale ones."
+event_type = "UserPromptSubmit"
+language = "python"
+timeout_seconds = 90

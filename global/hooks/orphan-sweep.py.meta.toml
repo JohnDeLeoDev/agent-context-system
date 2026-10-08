@@ -1,0 +1,7 @@
+uuid = "75ac16f4-8083-52e2-ace4-22474996022b"
+type = "hook"
+name = "orphan-sweep"
+description = "SessionStart: kill leaked opencode acp servers on this machine and idle detached pi tmux sessions across the fleet; reports what it killed."
+event_type = "SessionStart"
+language = "python"
+timeout_seconds = 15

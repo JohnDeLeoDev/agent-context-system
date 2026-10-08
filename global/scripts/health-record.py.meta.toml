@@ -1,0 +1,5 @@
+uuid = "6b6889e7-efc5-5f75-9cf7-9ed6b12dc490"
+type = "script"
+name = "health-record"
+description = "Records a component failure or recovery to ~/.claude/state/health/<component>.json so preflight-core-health reports it."
+language = "python"

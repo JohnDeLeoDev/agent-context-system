@@ -1,0 +1,7 @@
+uuid = "02a2a061-8396-5d47-aa0c-55e1c4365e66"
+type = "hook"
+name = "agent-blocked-notify"
+description = "Notification: push what the harness is waiting on, a permission prompt or an idle question, naming the conversation. Detached, fail-silent."
+event_type = "Notification"
+language = "python"
+timeout_seconds = 10

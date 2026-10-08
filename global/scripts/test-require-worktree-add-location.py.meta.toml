@@ -1,0 +1,5 @@
+uuid = "9ed7bc48-690b-5434-9f4c-e8ba69094f8b"
+type = "script"
+name = "test-require-worktree-add-location"
+description = "Tests require-worktree-add-location.py: `git worktree add` under .claude/worktrees/ is refused, .agents/worktrees/ allowed, bad input passes"
+language = "python"

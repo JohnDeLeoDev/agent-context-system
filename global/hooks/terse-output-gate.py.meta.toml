@@ -1,0 +1,7 @@
+uuid = "e189b5fe-7c1d-51d9-a9b3-ccae6ea70665"
+type = "hook"
+name = "terse-output-gate"
+description = "Stop: refuse a turn that uses banned language or whose closing message ran past the word budget; record length telemetry."
+event_type = "Stop"
+language = "python"
+timeout_seconds = 15

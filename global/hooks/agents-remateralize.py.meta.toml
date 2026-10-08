@@ -1,0 +1,8 @@
+uuid = "e674e4f2-a7d3-5a77-9c04-b3fee74ae9b2"
+type = "hook"
+name = "agents-remateralize"
+description = "PostToolUse: re-run the materialize scripts after .agents/ edits or store writes; reports only when the .claude/ projection is stale."
+event_type = "PostToolUse"
+matcher = "Write|Edit|MultiEdit|mcp__agent-context__.*"
+language = "python"
+timeout_seconds = 30

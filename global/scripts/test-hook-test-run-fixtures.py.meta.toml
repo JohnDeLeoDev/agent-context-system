@@ -1,0 +1,5 @@
+uuid = "8d59b075-b7dc-586c-bcd9-5fb7423d5646"
+type = "script"
+name = "test-hook-test-run-fixtures"
+description = "Tests that a hook-test-run run owns only its own fixture directory: live sibling fixtures survive and stale run-* directories are swept."
+language = "python"

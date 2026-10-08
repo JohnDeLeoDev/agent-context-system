@@ -1,0 +1,7 @@
+uuid = "a9bfabb8-4701-514e-99de-b7ce1bbf2718"
+type = "hook"
+name = "locked-test-drift-gate"
+description = "Stop: refuse to end a turn while a test locked by test-lock.py differs from its recorded hash in a checkout the session works in."
+event_type = "Stop"
+language = "python"
+timeout_seconds = 15

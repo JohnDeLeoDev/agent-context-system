@@ -1,0 +1,5 @@
+uuid = "2111ce68-b084-5f84-a619-037a8405568d"
+type = "script"
+name = "hook-dispatch"
+description = "Runs one hook event's guards from hook-dispatch.json in order, merges their results and fails open on a crashing guard. Run per hook event."
+language = "python"

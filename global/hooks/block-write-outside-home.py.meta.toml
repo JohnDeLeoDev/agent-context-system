@@ -1,0 +1,8 @@
+uuid = "0e91c64b-56ed-58fe-a17d-b0099cc6cfeb"
+type = "hook"
+name = "block-write-outside-home"
+description = "PreToolUse(Bash|Monitor, file writes): refuse a write outside $HOME unless user approved the directory via write-outside-home-consent.py."
+event_type = "PreToolUse"
+matcher = "Bash|Monitor|Write|Edit|MultiEdit|NotebookEdit"
+language = "python"
+timeout_seconds = 15

@@ -1,0 +1,5 @@
+uuid = "df701433-b483-5435-a411-6c30440065e4"
+type = "script"
+name = "statusline-command"
+description = "Claude Code status line: cwd, git branch, model and context percent, read from stdin JSON. Wired by home-settings-sync as statusLine."
+language = "python"

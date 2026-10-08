@@ -1,0 +1,5 @@
+uuid = "a3aa80ef-60a4-5e75-87f0-a0d6daaff9a8"
+type = "script"
+name = "test-opencode-approval"
+description = "Battery for opencode-approval.py and the opencode reply-route refusal in block-consent-self-grant."
+language = "python"

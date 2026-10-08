@@ -1,0 +1,5 @@
+uuid = "ff7c8a7c-3488-5172-a6a0-39544ac96b4a"
+type = "script"
+name = "test-plain-language-blocklist"
+description = "Tests the plain-language blocklist: padding, narration, offers and contrast framing blocked in writes, final messages and prose scans."
+language = "python"

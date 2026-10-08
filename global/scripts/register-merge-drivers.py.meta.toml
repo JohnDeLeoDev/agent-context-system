@@ -1,0 +1,5 @@
+uuid = "1f1a2627-c9bd-5618-88ff-15404e0963db"
+type = "script"
+name = "register-merge-drivers"
+description = "Register the store's git merge drivers and their path attributes. Idempotent; the daemon calls it before every sync merge."
+language = "python"

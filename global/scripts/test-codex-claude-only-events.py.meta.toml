@@ -1,0 +1,5 @@
+uuid = "1a8d758c-bfc3-599b-bc81-5249197c2481"
+type = "script"
+name = "test-codex-claude-only-events"
+description = "Tests the Claude-only event table in harness-materialize.py: events with a written reason are informational, others raise a parity finding."
+language = "python"

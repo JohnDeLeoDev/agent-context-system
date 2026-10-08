@@ -1,0 +1,5 @@
+uuid = "6dce6898-5b03-5ffb-ab50-57c9ce2cdfcf"
+type = "script"
+name = "test-lock"
+description = "Lock acceptance tests by sha256 for the test-first-delivery skill: lock, status, publish. Run lock once tests are agreed; only user unlocks."
+language = "python"

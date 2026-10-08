@@ -1,0 +1,8 @@
+uuid = "e8d8668f-19ce-569e-8319-5dba4dbd1833"
+type = "hook"
+name = "require-resolvable-read-path"
+description = "PreToolUse(Bash): rewrite a relative, $HOME or $PWD file operand of grep or rg to an absolute path; refuse one it cannot resolve."
+event_type = "PreToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 30

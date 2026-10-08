@@ -1,0 +1,5 @@
+uuid = "b43200f3-4017-50a2-ae81-2208ba845a2c"
+type = "script"
+name = "test-invariant-node-tools"
+description = "Tests node-tools-pinned: chezmoi run_* scanned, the pnpm bootstrap exception, and every tool in global/node-tools/package.json at latest."
+language = "python"

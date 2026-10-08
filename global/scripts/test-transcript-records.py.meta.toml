@@ -1,0 +1,5 @@
+uuid = "a45eb21b-f1f4-5cdc-acb9-212466ead1d3"
+type = "script"
+name = "test-transcript-records"
+description = "Tests transcript_records.py: tolerant parse, a per-process cache keyed on path, size and mtime, one parse per Stop-chain reader."
+language = "python"

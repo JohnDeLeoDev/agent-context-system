@@ -1,0 +1,5 @@
+uuid = "6daba7cc-2bfd-52d0-bb24-0923a26c4b74"
+type = "script"
+name = "merge-doc-newer"
+description = "Git merge driver for generated project docs (merge=acdocnewer): takes the side with the newer updated_at and prefers a non-empty side."
+language = "python"

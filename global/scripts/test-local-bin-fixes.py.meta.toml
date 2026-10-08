@@ -1,0 +1,5 @@
+uuid = "611bef4f-7786-5a13-a107-ad0f2bf4b49f"
+type = "script"
+name = "test-local-bin-fixes"
+description = "Tests that the rendered git-mirror-converge.tmpl handles a multi-valued remote.origin.fetch without an error or a dropped value."
+language = "python"

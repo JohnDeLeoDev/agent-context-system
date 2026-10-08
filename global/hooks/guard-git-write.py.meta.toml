@@ -1,0 +1,8 @@
+uuid = "5678f11d-2531-5d82-ab86-d4d4f6f7a6e3"
+type = "hook"
+name = "guard-git-write"
+description = "PreToolUse(Bash): refuse git commit, push and merge outside a linked worktree unless a single-use consent token from user exists."
+event_type = "PreToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 30

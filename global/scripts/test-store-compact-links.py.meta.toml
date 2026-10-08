@@ -1,0 +1,5 @@
+uuid = "57196ee6-8525-53dd-b108-c6c9bdf9f412"
+type = "script"
+name = "test-store-compact-links"
+description = "Tests that store-compact.py --apply rewrites wikilinks and get_doc pointers to archived handoffs, and that report mode lists the rewrites."
+language = "python"

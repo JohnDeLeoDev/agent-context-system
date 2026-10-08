@@ -1,0 +1,30 @@
+{
+  "included": {
+    "agents": 5,
+    "commands": 6,
+    "hooks": 72,
+    "scripts": 256,
+    "skills": 4,
+    "docs": 30
+  },
+  "excluded_project_tests": [
+    "scripts/test-agentorchestra-script-fixes.py",
+    "scripts/test-user-pnpm-review.py",
+    "scripts/test-user-pnpm.py",
+    "scripts/test-project-script-fixes.py"
+  ],
+  "optional_hooks": [
+    "agent-blocked-notify",
+    "agent-turn-finished-notify",
+    "audit-nudge",
+    "chrome-mcp-isolated-guard",
+    "context-audit-autorun",
+    "invariant-probe",
+    "iterm-tab-status",
+    "orphan-sweep",
+    "preflight-core-health",
+    "project-memory-verify-autorun",
+    "ralph-patch-guard",
+    "sync-fault-notice"
+  ]
+}

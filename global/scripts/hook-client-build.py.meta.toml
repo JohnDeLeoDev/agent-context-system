@@ -1,0 +1,5 @@
+uuid = "a472aa81-f5ad-59c6-960c-42c5453df64a"
+type = "script"
+name = "hook-client-build"
+description = "Builds hook-client.rs with rustc into ~/.local/share/agent-context/bin/hook-client. Run by home-materialize at SessionStart."
+language = "python"

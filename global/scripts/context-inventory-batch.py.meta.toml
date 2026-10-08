@@ -1,0 +1,5 @@
+uuid = "d5cc16d7-cfb3-54b0-a37e-5fbd936d32d8"
+type = "script"
+name = "context-inventory-batch"
+description = "Context inventory step 2: settles data and generated-copy rows of inventory.tsv and packs the rest into reviewer batches under batches/."
+language = "python"

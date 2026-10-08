@@ -1,0 +1,8 @@
+uuid = "863ba5cf-f3ee-554c-af69-953e8fd87ad4"
+type = "hook"
+name = "plain-language-check"
+description = "PreToolUse(every write that carries text): refuse hard-list jargon, British spelling and the em dash character; warn on the soft list."
+event_type = "PreToolUse"
+matcher = "Write|Edit|MultiEdit|NotebookEdit|Bash|mcp__agent-context__add_audit_observation|mcp__agent-context__bulk_edit|mcp__agent-context__edit_body|mcp__agent-context__resolve_audit_observation|mcp__agent-context__update_audit_observation|mcp__agent-context__upsert_agent_definition|mcp__agent-context__upsert_command|mcp__agent-context__upsert_doc|mcp__agent-context__upsert_hook|mcp__agent-context__upsert_instruction|mcp__agent-context__upsert_memory|mcp__agent-context__upsert_script|mcp__agent-context__upsert_skill"
+language = "python"
+timeout_seconds = 15

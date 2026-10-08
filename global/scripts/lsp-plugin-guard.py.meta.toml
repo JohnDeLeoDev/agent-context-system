@@ -1,0 +1,5 @@
+uuid = "52bfcebd-e91b-52a2-9a77-3722cfbe3b26"
+type = "script"
+name = "lsp-plugin-guard"
+description = "Disables the Claude LSP plugin in each repo that has a matching `*-lsp` MCP bridge in mcp-servers.json. Called by project-materialize.py."
+language = "python"

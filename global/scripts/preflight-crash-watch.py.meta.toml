@@ -1,0 +1,5 @@
+uuid = "a6ebafdf-2159-5ca8-a8a0-bc9bcff42d6a"
+type = "script"
+name = "preflight-crash-watch"
+description = "Report a preflight-core-health run that crashed, never completed or missed a session. Run by home-materialize.py at SessionStart."
+language = "python"

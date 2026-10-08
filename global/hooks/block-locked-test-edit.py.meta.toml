@@ -1,0 +1,8 @@
+uuid = "e206d1bb-6640-5939-a055-6f99773a84c1"
+type = "hook"
+name = "block-locked-test-edit"
+description = "PreToolUse(file, Bash and store writes): refuse a write to an acceptance test locked by test-lock.py; only user unlocks."
+event_type = "PreToolUse"
+matcher = "Write|Edit|MultiEdit|NotebookEdit|Bash"
+language = "python"
+timeout_seconds = 10

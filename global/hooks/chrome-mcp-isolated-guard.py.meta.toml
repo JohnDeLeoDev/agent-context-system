@@ -1,0 +1,7 @@
+uuid = "fec3541a-1d18-5649-b457-b443756921b2"
+type = "hook"
+name = "chrome-mcp-isolated-guard"
+description = "SessionStart: restore --isolated on the chrome-devtools-mcp server so each session gets its own Chrome profile."
+event_type = "SessionStart"
+language = "python"
+timeout_seconds = 10

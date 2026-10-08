@@ -1,0 +1,5 @@
+uuid = "e95e9685-7fd4-5a69-91cc-44bda2c98d68"
+type = "script"
+name = "store-doc"
+description = "Print one store doc fetched with get_doc, for a command or skill shell block; --project picks a project doc. Exit 0, 1 or 2."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "1cf1d36c-5f42-5a32-8220-26a99e1b61c9"
+type = "script"
+name = "change-size-check"
+description = "Reports a diff range's size against review thresholds of 200 and 400 lines; warns, never blocks. Run from wt-finish before landing."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "3e806b5b-b643-55f5-9ee7-8f8ad21a46d8"
+type = "script"
+name = "shell-command-scan"
+description = "Shared quote- and heredoc-aware shell-command parser returning redirect targets and argv segments. Guards import it or call it as a CLI."
+language = "python"

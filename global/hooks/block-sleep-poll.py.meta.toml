@@ -1,0 +1,8 @@
+uuid = "2daadbf2-3d83-58c2-b823-66c11fbf38c7"
+type = "hook"
+name = "block-sleep-poll"
+description = "PreToolUse(Bash): refuse a `while true` or `until` loop that sleeps with no bound on iterations; bounded loops and bare sleeps pass."
+event_type = "PreToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 15

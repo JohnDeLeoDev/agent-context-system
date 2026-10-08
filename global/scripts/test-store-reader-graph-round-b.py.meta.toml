@@ -1,0 +1,5 @@
+uuid = "0088655c-0fa8-56bf-8e19-7205fef71266"
+type = "script"
+name = "test-store-reader-graph-round-b"
+description = "Tests store-reader-graph's reporting of its known gaps and blind spots."
+language = "python"

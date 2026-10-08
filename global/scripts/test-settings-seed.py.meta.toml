@@ -1,0 +1,5 @@
+uuid = "2958b7c7-9e5d-5f07-8c4a-7455313ab8bb"
+type = "script"
+name = "test-settings-seed"
+description = "Tests that home-settings-sync.py seeds a missing ~/.claude/settings.json from global/settings-seed.json and never overwrites one."
+language = "python"

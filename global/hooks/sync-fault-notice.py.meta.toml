@@ -1,0 +1,7 @@
+uuid = "cd77e4b2-0b18-5e27-9b7e-f43680ef440d"
+type = "hook"
+name = "sync-fault-notice"
+description = "UserPromptSubmit+Stop: report every failing verdict in ~/.claude/state/health/ at the start of a turn; silent while healthy."
+event_type = "UserPromptSubmit"
+language = "python"
+timeout_seconds = 10

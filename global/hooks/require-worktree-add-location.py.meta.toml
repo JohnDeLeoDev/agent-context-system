@@ -1,0 +1,8 @@
+uuid = "c0c2c780-2ea3-5649-abb7-0822bb355607"
+type = "hook"
+name = "require-worktree-add-location"
+description = "PreToolUse(Bash): refuse a `git worktree add` whose target is not under the repo's .agents/worktrees/."
+event_type = "PreToolUse"
+matcher = "Bash"
+language = "python"
+timeout_seconds = 30

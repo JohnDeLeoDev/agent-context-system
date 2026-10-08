@@ -1,0 +1,5 @@
+uuid = "882642f7-016f-5ddc-a26f-84dc0a35ffd6"
+type = "script"
+name = "test-shell-command-scan"
+description = "Regression tests for shell-command-scan: one case per recorded guard false positive, plus controls that real writes are still caught."
+language = "python"

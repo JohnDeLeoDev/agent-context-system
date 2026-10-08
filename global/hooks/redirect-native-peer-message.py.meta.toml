@@ -1,0 +1,8 @@
+uuid = "127c6ae2-03cc-58c1-90de-4e7d5e0fcd0b"
+type = "hook"
+name = "redirect-native-peer-message"
+description = "PreToolUse(SendMessage|ListAgents): refuse a native SendMessage to a store address and print the send_message call."
+event_type = "PreToolUse"
+matcher = "SendMessage|ListAgents"
+language = "python"
+timeout_seconds = 10

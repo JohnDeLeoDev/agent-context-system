@@ -1,0 +1,8 @@
+uuid = "8ecaca0a-2a32-53b4-95a6-54a957524b88"
+type = "hook"
+name = "block-consent-self-grant"
+description = "PreToolUse(Bash and file writes): refuse an agent running a consent script or forging its grant file for git, outside-home or test unlocks."
+event_type = "PreToolUse"
+matcher = "Bash|Write|Edit|MultiEdit|NotebookEdit"
+language = "py"
+timeout_seconds = 10

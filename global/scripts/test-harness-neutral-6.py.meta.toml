@@ -1,0 +1,5 @@
+uuid = "26894ed8-1f28-5399-8a13-431e524dd822"
+type = "script"
+name = "test-harness-neutral-6"
+description = "Tests the CLAUDE.md projection, invariant scope, server text and layout docs after the harness-neutral cleanup."
+language = "python"

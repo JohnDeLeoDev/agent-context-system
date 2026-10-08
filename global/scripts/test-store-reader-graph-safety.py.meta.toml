@@ -1,0 +1,5 @@
+uuid = "8614f241-d399-5506-94e5-00448215ea49"
+type = "script"
+name = "test-store-reader-graph-safety"
+description = "Safety tests for store-reader-graph: output path rules and the no-removal notice."
+language = "python"

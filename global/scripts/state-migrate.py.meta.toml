@@ -1,0 +1,5 @@
+uuid = "f6727ccd-4947-5e35-be31-94843949e280"
+type = "script"
+name = "state-migrate"
+description = "Move the legacy ~/.claude/state into ~/.local/state/agent-context once. Idempotent; on a name conflict the newer file wins and is reported."
+language = "python"

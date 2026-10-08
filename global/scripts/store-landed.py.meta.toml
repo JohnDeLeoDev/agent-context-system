@@ -1,0 +1,5 @@
+uuid = "d8bd91d5-f4a4-511b-b780-3ea709824e0d"
+type = "script"
+name = "store-landed"
+description = "Fetch all remotes and name which contain a store sha or branch tip; exit 0 only when all do. Run before reporting a store change shipped."
+language = "python"

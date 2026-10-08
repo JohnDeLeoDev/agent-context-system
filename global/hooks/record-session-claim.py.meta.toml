@@ -1,0 +1,7 @@
+uuid = "67a08719-46ab-5077-9c4f-345f06f60353"
+type = "hook"
+name = "record-session-claim"
+description = "UserPromptSubmit+PostToolUse(Edit|Write)+SessionEnd: record where this session works in a claims file; remove it at SessionEnd. Silent."
+event_type = "UserPromptSubmit"
+language = "python"
+timeout_seconds = 10

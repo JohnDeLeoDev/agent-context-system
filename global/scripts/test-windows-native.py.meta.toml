@@ -1,0 +1,5 @@
+uuid = "283da91f-3631-5446-9a52-90d3e2557644"
+type = "script"
+name = "test-windows-native"
+description = "Tests the store on native Windows: PowerShell-to-POSIX translation for the Bash guards, hook-dispatch, tree_copy without rsync, .exe rule."
+language = "python"

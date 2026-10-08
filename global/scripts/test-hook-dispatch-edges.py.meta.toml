@@ -1,0 +1,5 @@
+uuid = "95571d20-3ee9-5715-84f3-4ffec5cd2d60"
+type = "script"
+name = "test-hook-dispatch-edges"
+description = "Edge tests for hook-dispatch: orphaned guard children, non-UTF-8 payloads, duplicate dispatcher entries, invalid matchers, merged fields."
+language = "python"

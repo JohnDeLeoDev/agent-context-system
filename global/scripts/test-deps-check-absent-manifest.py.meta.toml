@@ -1,0 +1,5 @@
+uuid = "8db48aed-5f89-5bfc-ad91-7607f4dc861d"
+type = "script"
+name = "test-deps-check-absent-manifest"
+description = "Tests deps-check.py on a relay-only layout without global/deps/manifest.toml: exit 2, one stderr line, no deps.json, no health record."
+language = "python"

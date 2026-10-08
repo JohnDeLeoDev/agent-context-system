@@ -1,0 +1,13 @@
+diff --git a/dist/main.js b/dist/main.js
+index 84968f73f744a11456a0bc379c24e218ace353db..dfa6ea52529e1ce50b8c7be3226dcd1d71683d39 100755
+--- a/dist/main.js
++++ b/dist/main.js
+@@ -896,7 +896,7 @@ function translateModelName(model) {
+ }
+ function translateAnthropicMessagesToOpenAI(anthropicMessages, system) {
+ 	const systemMessages = handleSystemPrompt(system);
+-	const otherMessages = anthropicMessages.flatMap((message) => message.role === "user" ? handleUserMessage(message) : handleAssistantMessage(message));
++	const otherMessages = anthropicMessages.flatMap((message) => message.role === "user" || message.role === "system" ? handleUserMessage(message) : handleAssistantMessage(message));
+ 	return [...systemMessages, ...otherMessages];
+ }
+ function handleSystemPrompt(system) {

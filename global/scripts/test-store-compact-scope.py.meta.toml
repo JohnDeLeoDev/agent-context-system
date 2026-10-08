@@ -1,0 +1,5 @@
+uuid = "f930cd5a-bf35-5def-93ff-b0b1e61b06e6"
+type = "script"
+name = "test-store-compact-scope"
+description = "Tests the store-compact archive sweep: a pointer keeps only the handoff in its own scope, and an interrupted move finishes on the next run."
+language = "python"

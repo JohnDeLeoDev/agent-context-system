@@ -1,0 +1,5 @@
+uuid = "450cf97d-1e19-5240-b14f-70bd589eeb72"
+type = "script"
+name = "token-usage-collect"
+description = "Roll Claude Code transcript token usage into a local SQLite DB and monthly rollups uploaded via relay_report. Run by session hooks."
+language = "python"

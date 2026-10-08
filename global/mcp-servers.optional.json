@@ -1,0 +1,125 @@
+{
+  "servers": {
+    "xcode": {
+      "transport": "stdio",
+      "command": "/Applications/Xcode.app/Contents/Developer/usr/bin/mcpbridge",
+      "args": [],
+      "harnesses": [
+        "claude"
+      ]
+    },
+    "xcodebuild-mcp": {
+      "transport": "stdio",
+      "command": "{HOME}/.local/share/agent-context/node-tools/node_modules/.bin/xcodebuildmcp",
+      "args": [
+        "mcp"
+      ],
+      "harnesses": [
+        "claude",
+        "codex"
+      ]
+    },
+    "firefox-devtools": {
+      "transport": "stdio",
+      "command": "{HOME}/.local/share/agent-context/node-tools/node_modules/.bin/firefox-devtools-mcp",
+      "args": [],
+      "env": {
+        "START_URL": "about:blank"
+      },
+      "harnesses": [
+        "claude",
+        "codex"
+      ]
+    },
+    "swift-lsp": {
+      "transport": "stdio",
+      "command": "{PYTHON}",
+      "args": [
+        "{HOME}/.agent-context/global/scripts/lspd.py",
+        "--mcp",
+        "--key",
+        "sourcekit-lsp"
+      ],
+      "harnesses": [
+        "claude",
+        "opencode",
+        "codex"
+      ]
+    },
+    "csharp-lsp": {
+      "transport": "stdio",
+      "command": "{PYTHON}",
+      "args": [
+        "{HOME}/.agent-context/global/scripts/lspd.py",
+        "--mcp",
+        "--key",
+        "csharp-ls"
+      ],
+      "harnesses": [
+        "claude",
+        "opencode",
+        "codex"
+      ]
+    },
+    "typescript-lsp": {
+      "transport": "stdio",
+      "command": "{PYTHON}",
+      "args": [
+        "{HOME}/.agent-context/global/scripts/lspd.py",
+        "--mcp",
+        "--key",
+        "tsgo"
+      ],
+      "harnesses": [
+        "claude",
+        "opencode",
+        "codex"
+      ]
+    },
+    "kotlin-lsp": {
+      "transport": "stdio",
+      "command": "{PYTHON}",
+      "args": [
+        "{HOME}/.agent-context/global/scripts/lspd.py",
+        "--mcp",
+        "--key",
+        "kotlin-lsp"
+      ],
+      "harnesses": [
+        "claude",
+        "opencode",
+        "codex"
+      ]
+    },
+    "pyright-lsp": {
+      "transport": "stdio",
+      "command": "{PYTHON}",
+      "args": [
+        "{HOME}/.agent-context/global/scripts/lspd.py",
+        "--mcp",
+        "--key",
+        "basedpyright"
+      ],
+      "harnesses": [
+        "claude",
+        "opencode",
+        "codex"
+      ]
+    },
+    "rust-analyzer-lsp": {
+      "transport": "stdio",
+      "command": "{PYTHON}",
+      "args": [
+        "{HOME}/.agent-context/global/scripts/lspd.py",
+        "--mcp",
+        "--key",
+        "rust-analyzer"
+      ],
+      "harnesses": [
+        "claude",
+        "opencode",
+        "codex"
+      ]
+    }
+  }
+}

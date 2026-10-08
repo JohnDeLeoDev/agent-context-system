@@ -1,0 +1,7 @@
+uuid = "a5292248-858e-5dc4-9ea2-1f7e1b9818b9"
+type = "hook"
+name = "token-usage-collect"
+description = "SessionStart, Stop and SessionEnd: roll transcript token usage into the local DB and store rollups. Detached; never blocks."
+event_type = "Stop"
+language = "python"
+timeout_seconds = 10

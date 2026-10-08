@@ -1,0 +1,5 @@
+uuid = "e3db9f3e-cfba-5b79-9966-bc4e21040f1b"
+type = "script"
+name = "test-block-redundant-read"
+description = "Deny/allow cases for block-redundant-read. Thin wrapper on hook-test-run.py; cases live in hook-test-cases.py."
+language = "python"

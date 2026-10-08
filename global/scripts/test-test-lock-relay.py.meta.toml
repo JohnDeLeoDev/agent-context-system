@@ -1,0 +1,5 @@
+uuid = "0c640ac9-7827-5611-8b27-39ce081d7731"
+type = "script"
+name = "test-test-lock-relay"
+description = "Tests relay test-lock root forwarding, authority status, consent classification and refusal when the authority is unavailable."
+language = "python"

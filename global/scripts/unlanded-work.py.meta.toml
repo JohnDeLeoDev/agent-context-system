@@ -1,0 +1,5 @@
+uuid = "7ff5b5f7-ee47-57e3-addd-3b2ed22650cc"
+type = "script"
+name = "unlanded-work"
+description = "Report unlanded work in project repos: dirty checkouts, unmerged branches, unpushed commits. --repo runs at SessionStart; --fleet sweeps."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "2a1cdb1d-1085-56df-8d39-4464e4530ede"
+type = "script"
+name = "test-home-materialize-deps"
+description = "Tests home-materialize.py's detached deps-check spawn: gated by deps.json age, never waits, prints nothing, survives a failing checker."
+language = "python"

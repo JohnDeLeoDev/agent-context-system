@@ -1,0 +1,5 @@
+uuid = "6dc3ccd3-6935-5eeb-a969-af3e4525e6ff"
+type = "script"
+name = "test-local-bin-converge-errors"
+description = "Tests git-mirror-converge error handling: config-write failures go to stderr, other repos still converge, --quick exits non-zero."
+language = "python"

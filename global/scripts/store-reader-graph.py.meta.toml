@@ -1,0 +1,5 @@
+uuid = "90468943-f583-5098-b866-3c6a4fe9e492"
+type = "script"
+name = "store-reader-graph"
+description = "Report-only keep-list evidence: what reads each store file, with known gaps and blind spots. Never a removal list."
+language = "python"

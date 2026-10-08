@@ -1,0 +1,5 @@
+uuid = "3f2fdb7e-21dd-5a62-97b8-45fddc6e3104"
+type = "script"
+name = "test-plain-language-check"
+description = "Tests the plain-language-check hook: jargon and British spelling in markdown, comments and commit messages, plus paths that must pass."
+language = "python"

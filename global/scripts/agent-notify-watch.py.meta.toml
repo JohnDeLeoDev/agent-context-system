@@ -1,0 +1,5 @@
+uuid = "c2863f62-3200-53e8-b3b3-3368e2d34d96"
+type = "script"
+name = "agent-notify-watch"
+description = "Watches Claude Code and pi transcripts on each machine and pushes a line to the phone when an agent speaks. Runs as a daemon."
+language = "python"

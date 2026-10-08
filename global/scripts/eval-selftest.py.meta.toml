@@ -1,0 +1,5 @@
+uuid = "f33c915a-35b7-5011-9a62-5ee745a6ed75"
+type = "script"
+name = "eval-selftest"
+description = "Validates the eval case set without spending tokens: checks well-formed, paths exist, none passing on the bare fixture. Run before eval-run."
+language = "python"

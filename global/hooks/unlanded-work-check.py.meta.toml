@@ -1,0 +1,7 @@
+uuid = "67009a65-5284-5235-b5d6-86640340b106"
+type = "hook"
+name = "unlanded-work-check"
+description = "SessionStart: report dirty worktrees, unmerged branches and unpushed commits in this repo. Silent when clean; report-only."
+event_type = "SessionStart"
+language = "python"
+timeout_seconds = 15

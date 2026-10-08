@@ -1,0 +1,7 @@
+uuid = "3169a740-7fc4-54ba-b664-b19359f0f2ad"
+type = "hook"
+name = "precompact-capture"
+description = "PreCompact: save git state, files edited, store entities written and the last user asks to a per-session file for use after compaction."
+event_type = "PreCompact"
+language = "python"
+timeout_seconds = 15

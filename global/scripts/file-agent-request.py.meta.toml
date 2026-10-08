@@ -1,0 +1,5 @@
+uuid = "09100b53-a5ba-56ab-ae5c-e03ac89b73e2"
+type = "script"
+name = "file-agent-request"
+description = "Files an inter-agent request into the store from a shell: resolves the target to a machine or project inbox and writes through upsert."
+language = "python"

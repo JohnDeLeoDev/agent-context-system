@@ -1,0 +1,5 @@
+uuid = "24e84b27-5191-543b-a29f-c38c474a7ebf"
+type = "script"
+name = "test-wt-finish-regate"
+description = "Tests wt_finish_core: a landing_lock project rebuilds the rebased branch under the lock when the target moved; a late gate is killed."
+language = "python"

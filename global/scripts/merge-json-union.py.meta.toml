@@ -1,0 +1,5 @@
+uuid = "c7464e18-36ac-5798-93c3-dc9986009f93"
+type = "script"
+name = "merge-json-union"
+description = "Git merge driver that unions two JSON arrays of objects keyed by id; exits non-zero on an unexpected shape so git reports a conflict."
+language = "python"

@@ -1,0 +1,5 @@
+uuid = "241cd9ed-bbfa-5bd1-b330-fe6fbf4f1b1b"
+type = "script"
+name = "test-test-lock-typecheck"
+description = "Tests test-lock.py lock's basedpyright gate: clean files lock, type errors refuse, missing basedpyright warns, non-.py files unaffected."
+language = "python"

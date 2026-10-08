@@ -1,0 +1,7 @@
+uuid = "a8f86164-fbce-54ac-9b0a-f539ded7320b"
+type = "hook"
+name = "audit-nudge"
+description = "SessionStart: report when /context-audit is more than 14 days overdue for the current project or the store checkout."
+event_type = "SessionStart"
+language = "python"
+timeout_seconds = 30

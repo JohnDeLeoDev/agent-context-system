@@ -1,0 +1,5 @@
+uuid = "3904b56e-aacf-5cc2-945d-cff2a6690ac4"
+type = "script"
+name = "refresh-intellij-server"
+description = "Keep an unexpired intellij-server installed for the Kotlin LSP under ~/.local/opt/intellij-server. Run on a schedule; holds on a new EULA."
+language = "python"

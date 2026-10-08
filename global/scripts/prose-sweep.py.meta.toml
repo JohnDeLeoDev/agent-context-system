@@ -1,0 +1,5 @@
+uuid = "44208d60-5598-5704-b463-a867e0772e76"
+type = "script"
+name = "prose-sweep"
+description = "Report padding words, sentences over 34 words and passages repeated across files in store prose. Read-only; json prints a worklist."
+language = "python"

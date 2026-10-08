@@ -1,0 +1,5 @@
+uuid = "6134406a-7cab-569d-9f6c-a9d930e4f1bb"
+type = "script"
+name = "eval-cases"
+description = "The golden-task case set for eval-run.py; each case names in `why` the failure it came from. Edit it to add or change a case."
+language = "python"

@@ -1,0 +1,208 @@
+{
+  "events": {
+    "_doc": "Abstract event -> concrete per-harness event name.",
+    "session-start": {
+      "copilot": "SessionStart"
+    },
+    "pre-shell": {
+      "copilot": "PreToolUse",
+      "antigravity": {
+        "event": "PreToolUse",
+        "matcher": "run_command"
+      }
+    },
+    "pre-edit": {
+      "copilot": "PreToolUse",
+      "antigravity": {
+        "event": "PreToolUse",
+        "matcher": "edit_file|write_file|replace_file_content|create_file"
+      }
+    }
+  },
+  "hooks": {
+    "harness-materialize": {
+      "kind": "materialize",
+      "run": "python3",
+      "script": "{HOME}/.agent-context/global/scripts/harness-materialize.py",
+      "event": "session-start",
+      "blocking": false,
+      "status": "active",
+      "harnesses": [
+        "copilot"
+      ],
+      "note": "Re-renders the store-to-harness projection when a copilot session starts; never blocks. antigravity has no session-start event; opencode, pi and Claude re-render through their own session-start paths."
+    },
+    "block-git-stash": {
+      "kind": "guard",
+      "run": "python3",
+      "script": "{HOME}/.agent-context/global/hooks/block-git-stash.py",
+      "event": "pre-shell",
+      "blocking": true,
+      "status": "pending-validation",
+      "harnesses": [
+        "copilot",
+        "antigravity"
+      ],
+      "note": "Exit 2 blocks; reads tool_input, tool_args or a generic payload. opencode also runs it, through the generated agent-context-guards.js plugin. To validate a harness, ask the agent to run `git stash` and confirm the refusal."
+    },
+    "guard-git-write": {
+      "kind": "guard",
+      "run": "python3",
+      "script": "{HOME}/.agent-context/global/hooks/guard-git-write.py",
+      "event": "pre-shell",
+      "blocking": true,
+      "status": "pending-validation",
+      "harnesses": [
+        "copilot",
+        "antigravity"
+      ],
+      "note": "Blocks git commit, push and merge outside a worktree. opencode also runs it, through the generated plugin."
+    },
+    "require-worktree-edit": {
+      "kind": "guard",
+      "run": "python3",
+      "script": "{HOME}/.agent-context/global/hooks/require-worktree-edit.py",
+      "event": "pre-edit",
+      "blocking": true,
+      "status": "pending-validation",
+      "harnesses": [
+        "copilot",
+        "antigravity"
+      ],
+      "note": "Blocks project-source edits in a main checkout; reads file_path, path or notebook_path. opencode also runs it, through the generated plugin."
+    },
+    "plain-language-check": {
+      "kind": "guard",
+      "run": "python3",
+      "script": "{HOME}/.agent-context/global/hooks/plain-language-check.py",
+      "event": "pre-edit",
+      "blocking": true,
+      "status": "pending-validation",
+      "harnesses": [
+        "copilot",
+        "opencode",
+        "antigravity"
+      ],
+      "note": "Blocks hard-list jargon, British spelling and the em dash in new prose. Signals with stderr plus exit 2 and also prints the Claude JSON deny on stdout. Runs on shell and edit tools. Word lists come from global/scripts/plain-language-words.py. To validate a harness, confirm a write containing an em dash is refused."
+    },
+    "block-write-outside-home": {
+      "kind": "guard",
+      "run": "python3",
+      "script": "{HOME}/.agent-context/global/hooks/block-write-outside-home.py",
+      "event": "pre-shell",
+      "blocking": true,
+      "status": "pending-validation",
+      "harnesses": [
+        "copilot",
+        "opencode",
+        "antigravity"
+      ],
+      "note": "Refuses a write outside $HOME unless user approved the directory with write-outside-home-consent.py. Runs on shell and edit tools: one script reads a command or a path. Needs global/scripts/shell-command-scan.py for shell payloads and fails open without it. To validate a harness, confirm `echo x > /tmp/probe` and a Write to /tmp/probe are refused."
+    },
+    "block-deploy": {
+      "kind": "guard",
+      "run": "python3",
+      "script": "{HOME}/.agent-context/global/hooks/block-deploy.py",
+      "event": "pre-shell",
+      "blocking": true,
+      "status": "claude-only",
+      "harnesses": [],
+      "note": "Not portable: it derives deploy authorization from the Claude session transcript. Wired for Claude by home-settings-sync.py; pi runs it through the dispatcher entries below."
+    },
+    "dispatch-SessionStart": {
+      "kind": "dispatcher",
+      "run": "python3",
+      "script": "{HOME}/.agent-context/global/scripts/hook-dispatch.py",
+      "claude_event": "SessionStart",
+      "blocking": false,
+      "timeout": 60,
+      "status": "active",
+      "harnesses": [
+        "pi"
+      ],
+      "note": "pi runs the Claude hook dispatcher once per event, through the generated extension agent-context-hooks.ts. The dispatcher is a store script and reads its guard list from the generated hook-dispatch.json in the store root."
+    },
+    "dispatch-SessionEnd": {
+      "kind": "dispatcher",
+      "run": "python3",
+      "script": "{HOME}/.agent-context/global/scripts/hook-dispatch.py",
+      "claude_event": "SessionEnd",
+      "blocking": false,
+      "timeout": 60,
+      "status": "active",
+      "harnesses": [
+        "pi"
+      ],
+      "note": "See dispatch-SessionStart."
+    },
+    "dispatch-UserPromptSubmit": {
+      "kind": "dispatcher",
+      "run": "python3",
+      "script": "{HOME}/.agent-context/global/scripts/hook-dispatch.py",
+      "claude_event": "UserPromptSubmit",
+      "blocking": true,
+      "timeout": 60,
+      "status": "active",
+      "harnesses": [
+        "pi"
+      ],
+      "note": "See dispatch-SessionStart."
+    },
+    "dispatch-PreToolUse": {
+      "kind": "dispatcher",
+      "run": "python3",
+      "script": "{HOME}/.agent-context/global/scripts/hook-dispatch.py",
+      "claude_event": "PreToolUse",
+      "blocking": true,
+      "timeout": 60,
+      "status": "active",
+      "harnesses": [
+        "pi"
+      ],
+      "note": "See dispatch-SessionStart. Also runs for a command the user types with the bang prefix (user_bash)."
+    },
+    "dispatch-PostToolUse": {
+      "kind": "dispatcher",
+      "run": "python3",
+      "script": "{HOME}/.agent-context/global/scripts/hook-dispatch.py",
+      "claude_event": "PostToolUse",
+      "blocking": false,
+      "timeout": 60,
+      "status": "active",
+      "harnesses": [
+        "pi"
+      ],
+      "note": "See dispatch-SessionStart."
+    },
+    "dispatch-PostToolUseFailure": {
+      "kind": "dispatcher",
+      "run": "python3",
+      "script": "{HOME}/.agent-context/global/scripts/hook-dispatch.py",
+      "claude_event": "PostToolUseFailure",
+      "blocking": false,
+      "timeout": 60,
+      "status": "active",
+      "harnesses": [
+        "pi"
+      ],
+      "note": "See dispatch-SessionStart."
+    },
+    "dispatch-Stop": {
+      "kind": "dispatcher",
+      "run": "python3",
+      "script": "{HOME}/.agent-context/global/scripts/hook-dispatch.py",
+      "claude_event": "Stop",
+      "blocking": true,
+      "timeout": 60,
+      "status": "active",
+      "harnesses": [
+        "pi"
+      ],
+      "note": "See dispatch-SessionStart. A refusal feeds its reason back as a new turn; the third refusal in a row ends the turn."
+    },
+    "_managed-elsewhere": {
+      "kind": "manager-note",
+      "note": "Claude's hooks, these guards included, are wired by the MANAGED table in home-settings-sync.py, which is the one list of them."
+    }
+  }
+}

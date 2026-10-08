@@ -1,0 +1,8 @@
+uuid = "ed18bff4-45c6-5783-a464-3ce3ab7245d0"
+type = "hook"
+name = "block-file-memory-write"
+description = "PreToolUse(Write|Edit|MultiEdit|NotebookEdit): refuse writes into a harness file-memory directory; memory goes through upsert_memory."
+event_type = "PreToolUse"
+matcher = "Write|Edit|MultiEdit|NotebookEdit"
+language = "python"
+timeout_seconds = 15

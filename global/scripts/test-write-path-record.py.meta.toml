@@ -1,0 +1,5 @@
+uuid = "0466dfb3-864a-514e-8151-66b259993ca3"
+type = "script"
+name = "test-write-path-record"
+description = "Tests that example-project's write-path-check.py reads its classification from ci/write-paths.json in the tree it judges."
+language = "python"

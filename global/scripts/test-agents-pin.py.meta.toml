@@ -1,0 +1,5 @@
+uuid = "3793704d-e035-57bc-b4c6-70d98d04f68f"
+type = "script"
+name = "test-agents-pin"
+description = "Tests agents-pin.py, the agent projector for opencode and pi: fixture scenarios check files, removals, stdout and exit codes byte for byte."
+language = "python"

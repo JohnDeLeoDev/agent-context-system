@@ -1,0 +1,8 @@
+uuid = "5eafc12e-4152-510a-b9e8-8303f6593e7f"
+type = "hook"
+name = "block-redundant-read"
+description = "PreToolUse(Read): refuse a whole-file re-read of an unchanged file and the fifth bounded read of one file; reads three and four warn."
+event_type = "PreToolUse"
+matcher = "Read"
+language = "python"
+timeout_seconds = 10

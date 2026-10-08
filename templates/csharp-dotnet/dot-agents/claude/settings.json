@@ -1,0 +1,30 @@
+{
+  "enabledPlugins": {
+    "csharp-lsp@claude-plugins-official": true
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "bash -c 'python3 \"$HOME/.agent-context/global/scripts/project-materialize.py\" \"$CLAUDE_PROJECT_DIR\" || true'",
+            "timeout": 15
+          }
+        ]
+      }
+    ],
+    "PostToolUse": [
+      {
+        "matcher": "Edit|Write",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.agents/hooks/post-edit-format.py\"",
+            "timeout": 30
+          }
+        ]
+      }
+    ]
+  }
+}

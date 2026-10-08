@@ -1,0 +1,5 @@
+uuid = "0f90d59c-7a02-50e1-8528-22d9aadfa24c"
+type = "script"
+name = "test-harness-neutral-3a-review"
+description = "Tests that a DS_Store-only store, missing rsync or a symlinked shared-skills cannot empty or write through the shared-skills mirror."
+language = "python"
